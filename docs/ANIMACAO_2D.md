@@ -32,6 +32,14 @@ Escolher tamanho de canvas, área segura, pivô, direção, escala e nomenclatur
 
 Uma ficha por golpe deve guardar pelo menos: nome, comando, cels, duração por cel, startup, frames ativos, recovery, dano, hit/block stun, hitstop, alcance, altura (alto/médio/baixo), cancelamentos e reação do oponente. No protótipo atual os tempos básicos são aproximadamente 0,12 s de preparação, 0,10 s ativo e 0,24 s de recuperação a 60 atualizações por segundo; isso é frame data do protótipo, não dado oficial de Street Fighter.
 
+## Fundo sólido para recorte
+
+- Usar uma única cor sólida e uniforme por folha de animação. O padrão é verde chroma puro (`#00FF00`), desde que essa cor não apareça no personagem, roupa, cabelo, acessórios ou contornos.
+- Se o verde aparecer no personagem, escolher antes da produção outra cor sólida e saturada ausente da paleta (por exemplo, magenta `#FF00FF` ou ciano `#00FFFF`). Conferir também tons próximos nas bordas do desenho.
+- Manter a mesma cor de fundo em todos os quadros da folha. Não usar gradiente, textura, iluminação, ruído, sombra, chão, borda ou texto sobre o fundo.
+- Evitar contaminação da cor de recorte nas bordas do personagem. Na preparação para importar, remover a cor de fundo sem apagar pixels da arte e validar o resultado sobre o cenário do jogo.
+- Registrar a cor escolhida nos metadados da folha. Transparência só deve ser usada quando uma etapa específica do pipeline exigir esse formato.
+
 ## Cenário por planos
 
 Organizar cenário em fundo distante, plano intermediário, plano de luta/chão e elementos de primeiro plano. Cada plano tem velocidade/parallax e regra de oclusão próprias. O primeiro plano deve emoldurar sem encobrir os lutadores nem confundir a linha dos pés. Manter colisão, limites e linha de chão separados da arte decorativa.
@@ -45,7 +53,7 @@ Organizar cenário em fundo distante, plano intermediário, plano de luta/chão 
 
 ## IA como assistência, não fonte de verdade
 
-Geração de imagem pode acelerar conceito, exploração de paleta ou rascunho por pose, mas consistência de identidade, volume, pivô, proporções e sequência temporal ainda requer direção humana e revisão quadro a quadro. Requisitos do pipeline: arte original ou com direitos claros, referência aprovada, personagem/roupa fixados, poses nomeadas, linha-base comum, transparência limpa, correção de anatomia, teste em loop e registro da ferramenta/termos usados. Não alimentar ou reproduzir sprites comerciais protegidos.
+Geração de imagem pode acelerar conceito, exploração de paleta ou rascunho por pose, mas consistência de identidade, volume, pivô, proporções e sequência temporal ainda requer direção humana e revisão quadro a quadro. Requisitos do pipeline: arte original ou com direitos claros, referência aprovada, personagem/roupa fixados, poses nomeadas, linha-base comum, fundo chroma sólido uniforme conforme a convenção acima, correção de anatomia, teste em loop e registro da ferramenta/termos usados. Não alimentar ou reproduzir sprites comerciais protegidos.
 
 ## Leituras técnicas
 
