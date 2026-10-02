@@ -1,18 +1,14 @@
 # JUNQ FIGHT (Street Tráfego)
 
-Projeto independente de jogo de luta local 1 contra 1, com identidade própria inspirada no gênero dos fighters 2D. O objetivo é criar uma build simples para Windows para jogar entre amigos; jogo online e conteúdo adicional ficam para depois do MVP.
+Projeto independente de jogo de luta local 1 contra 1, com identidade própria inspirada no gênero dos fighters 2D. O objetivo é criar uma build simples para Windows para jogar entre amigos; modo online e conteúdo adicional ficam para depois do MVP.
 
-> **Estado atual:** protótipo jogável em Godot 4.7.2, arena lateral 2D, dois personagens placeholder e cenário urbano pixel art. Os placeholders não são os personagens finais. A documentação descreve o estado conhecido do projeto, não promete recursos ainda não implementados.
+> **Estado atual:** o workspace de desenvolvimento contém um protótipo em Godot 4.7.2, arena lateral 2D, dois personagens placeholder e cenário urbano pixel art. Os placeholders não são os personagens finais. Este repositório GitHub recebeu primeiro a documentação; código e assets ainda não foram publicados aqui.
 
-## Começar
+## Executar o protótipo local
 
-1. Instale/abra o editor Godot 4.7.2 ou compatível com o projeto.
-2. Importe a pasta `JUNQ_FIGHT/` pelo arquivo `project.godot`.
-3. Execute a cena principal `JUNQ_FIGHT/scenes/graybox.tscn` (ou pressione F6/F5 no editor).
+Instale/abra Godot 4.7.2 e importe `JUNQ_FIGHT/project.godot` no workspace de desenvolvimento. Esses arquivos ainda não fazem parte deste repositório. Não há executável publicado aqui.
 
-O executável de teste citado no README do protótipo é local e pode não estar incluído neste repositório. Exporte uma build pelo Godot para gerá-la.
-
-## Controles do protótipo
+## Controles do protótipo local
 
 | Ação | Jogador 1 | Jogador 2 |
 |---|---|---|
@@ -24,24 +20,23 @@ O executável de teste citado no README do protótipo é local e pode não estar
 | Pausar | Esc | Esc |
 | Confirmar / avançar round | Enter | Enter |
 
-## O que existe hoje
+## O que o protótipo já contém
 
 - Luta local no mesmo teclado, melhor de três rounds de 60 segundos.
-- Movimento lateral, salto, agachamento, orientação para o oponente, colisão no chão e passagem por cima/baixo quando há separação vertical.
+- Movimento lateral, salto, agachamento, orientação para o oponente e colisão no chão.
+- Passagem por cima/baixo quando há separação vertical, sem atravessamento caminhando no mesmo plano.
 - Soco, dano, defesa frontal, empurrão, stun, efeitos sonoros procedurais, vida, cronômetro, resultado e revanche.
-- Personagens e cenário de demonstração em pixel art licenciados como CC0.
+- Personagens e cenário de demonstração pixel art licenciados como CC0.
 
-## Mapa do repositório
+## Documentação
 
-- [JUNQ_FIGHT/README.md](JUNQ_FIGHT/README.md) — instruções e detalhes do protótipo Godot.
-- [docs/STATUS_E_ROADMAP.md](docs/STATUS_E_ROADMAP.md) — estágio atual, pendências e próximos gates.
-- [docs/ARQUITETURA.md](docs/ARQUITETURA.md) — composição técnica e fluxo da luta.
-- [docs/ARTE_ASSETS_E_LICENCAS.md](docs/ARTE_ASSETS_E_LICENCAS.md) — assets presentes, procedência e regras de uso.
-- [docs/ANIMACAO_2D.md](docs/ANIMACAO_2D.md) — pipeline e recomendações para sprites, quadros e cenários.
-- [PROJECT_CONTEXT.md](PROJECT_CONTEXT.md) — contexto e histórico de planejamento mantidos no workspace de desenvolvimento.
+- [Estado e roadmap](docs/STATUS_E_ROADMAP.md) — estágio atual, pendências e próximos gates.
+- [Arquitetura](docs/ARQUITETURA.md) — composição técnica e fluxo da luta local.
+- [Arte, assets e licenças](docs/ARTE_ASSETS_E_LICENCAS.md) — inventário do workspace e política de uso.
+- [Animação 2D](docs/ANIMACAO_2D.md) — pipeline, quadros, cenários e correções visuais.
 
 ## Limites e transparência
 
-Este projeto não é afiliado à Capcom nem reutiliza código, personagens, sprites, nomes de golpes ou cenários extraídos de Street Fighter. A referência é ao gênero e às convenções gerais de jogos de luta; arte, personagens e identidade final devem ser originais ou ter licença adequada. Consulte a documentação de assets antes de adicionar conteúdo.
+O projeto não é afiliado à Capcom nem reutiliza código, personagens, sprites, nomes de golpes ou cenários extraídos de Street Fighter. A inspiração é o gênero e suas convenções gerais; arte, personagens e identidade final devem ser originais ou licenciados.
 
-Ainda não há modo online, seleção de personagens, remapeamento de controles, CPU, tutorial, rollback ou pacote final dos lutadores. A execução visual e os testes automatizados precisam ser repetidos no ambiente-alvo antes de declarar uma versão pronta.
+Ainda não há modo online, seleção de personagens, remapeamento de controles, CPU, tutorial, rollback ou pacote final dos lutadores. A validação visual e os testes automatizados precisam ser repetidos no ambiente-alvo antes de declarar uma versão pronta.
