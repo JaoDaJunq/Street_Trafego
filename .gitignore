@@ -1,0 +1,21 @@
+# Godot generated/imported cache and local exports
+**/.godot/
+**/build/
+*.exe
+*.pck
+
+# Local machine/project notes include private computer details
+/PROJECT_CONTEXT.md
+
+# Personal photo-derived concept renders; keep local, do not publish
+/JUNQ_FIGHT/assets/characters/*concept*.png
+/JUNQ_FIGHT/assets/characters/*concept*.png.import
+
+# Retired 3D source animations; not used by the 2D game and redistribution terms are not recorded
+/JUNQ_FIGHT/assets/animations/sources/*.fbx
+/JUNQ_FIGHT/assets/animations/sources/*.fbx.import
+
+# OS/editor noise
+**/__MACOSX/
+**/.DS_Store
+Thumbs.db
