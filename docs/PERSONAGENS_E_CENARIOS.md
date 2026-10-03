@@ -33,9 +33,13 @@ A referência e a arte derivada permanecem no espaço de trabalho privado. Este 
 
 O usuário apontou que as seis poses pareciam praticamente iguais. Não usar esta versão no jogo.
 
-### Animação idle v02 — aguardando revisão
+### Animação idle v02 — reprovada
 
-Criada em 03/10/2026 para substituir a v01: seis poses mais distintas, com guarda neutra, afundamento dos joelhos, subida/bounce, pequeno shuffle à frente e recuperação do peso. Perfil para a direita, aura rosa e sequência em grade visual 3×2. Ainda é conceito, não está fatiada ou integrada. O arquivo permanece privado.
+O usuário identificou duplicação de braço e movimento exagerado em relação à base da personagem. Não usar esta versão no jogo.
+
+### Animação idle v03 — aguardando revisão
+
+Criada em 03/10/2026 conforme a correção solicitada: braços fixos na guarda, exatamente dois braços, deslocamento sutil do peso da perna traseira para a dianteira, com balanço leve apenas no cabelo e nas pontas da faixa. Os pés permanecem apoiados. Perfil para a direita, aura rosa e folha visual 3×2. Ainda é conceito, não está fatiada ou integrada; a arte permanece privada.
 
 ### Brief ainda a fechar
 
