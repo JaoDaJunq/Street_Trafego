@@ -65,6 +65,24 @@ Os conceitos foram criados para análise visual. **Aprovação visual não signi
 
 As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2 e células nominais de 512×512. Essa medida é de conceito: cada cel precisa ser conferida e recortada antes de virar asset. A folha de oito poses deve ser tratada conforme seu leiaute real, sem presumir o mesmo grid.
 
+## Estado das animações da Alice — 03/10/2026
+
+| Ação | Versão / poses | Estado |
+|---|---|---|
+| Conceito visual | v02 | Aprovado; aura rosa. |
+| Idle | v04, 6 poses | Aprovado visualmente; fatiamento, transparência, pivôs e integração pendentes. |
+| Caminhada lateral | v01, 6 poses | Criada de perfil para a direita, ciclo em grade visual 3×2 e fundo chroma verde; revisão visual pendente. Ainda não está fatiada ou integrada. |
+| Agachar e levantar | — | Pendente. |
+| Salto e aterrissagem | — | Pendente. |
+| Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
+| Socos leve e pesado | — | Pendente. |
+| Chutes básicos | — | Pendente de confirmação no moveset da Alice. |
+| Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
+| Combo mágico de três socos | — | Pendente; sequência e efeito rosa ainda precisam ser desenhados. |
+| Reação a golpe, nocaute e recuperação | — | Pendentes. |
+
+A caminhada e o idle estão em revisão visual como conceitos. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
+
 ## Decisões visuais que não podem se perder
 
 - O JUNQ FIGHT é luta 2D lateral. Desenhar Jão em perfil ou três-quartos lateral, voltado horizontalmente ao oponente. “Down” é agachar, não andar para baixo da tela.
