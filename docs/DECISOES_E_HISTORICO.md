@@ -18,8 +18,8 @@ Registro resumido de decisões de escopo e marcos. Os pushes citados abaixo são
 - **Push 3 — rounds:** melhor de três, timer, decisão por vida/empate, intermissão, pausa e revanche.
 - **Push 4 — controles físicos:** intencionalmente pulado naquele momento, permanece pendente.
 - **Push 5 — apresentação:** membros procedurais, movimento/poses, reação visual, efeitos e áudio procedural. O usuário pediu visualização e aprovou a etapa em seguida.
-- **Migração 2D:** arena, jogadores, HUD, spritesheets e cenário urbano convertidos para 2D. O usuário apontou flutuação no chão e afundamento ao agachar; o diagnóstico e a pesquisa estão em [DIAGNOSTICO_E_PESQUISA_ANIMACAO.md](DIAGNOSTICO_E_PESQUISA_ANIMACAO.md).
-- **Próxima produção:** corrigir fundamentos visuais/pipeline, depois criar o primeiro lutador original (Jão) e testar o pacote de animação dentro do jogo.
+- **Migração 2D:** arena, jogadores, HUD, spritesheets e cenário urbano convertidos para 2D. O usuário apontou flutuação no chão e afundamento ao agachar; o diagnóstico e a pesquisa estão em [ANIMACAO_2D.md](ANIMACAO_2D.md).
+- **Produção atual do Jão (03/10/2026):** os conceitos são feitos e revisados um movimento por vez. Defesa em pé, chute no ar e chute lateral com a perna da frente foram aprovados visualmente. Ainda faltam revisão das demais folhas, fatiamento, pivôs/tempos e integração na Godot. Recuperação do nocaute e reação não letal foram criadas e aguardam revisão. O chute lateral da perna de trás v06 foi reprovado e não deve ser integrado. O inventário e o processo vinculante estão em [ANIMACAO_2D.md](ANIMACAO_2D.md).
 
 ## Validação e limites conhecidos
 
