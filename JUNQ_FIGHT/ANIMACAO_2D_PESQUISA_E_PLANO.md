@@ -3,6 +3,8 @@
 **Data:** 2026-10-02  
 **Escopo:** diagnosticar a arena migrada, definir um padrão próprio de animação e preparar o próximo push de personagem. Este documento é uma especificação de produção, não uma cópia de assets, código ou animação proprietária.
 
+> **Fonte atual de execução:** as decisões finais do usuário, o inventário de cada folha e o processo obrigatório de revisão/importação foram consolidados depois desta pesquisa em [`docs/ANIMACAO_2D.md`](../docs/ANIMACAO_2D.md). Em caso de diferença, seguir esse guia. Quantidades, formatos e recomendações desta pesquisa são estimativas, não aprovação automática de uma arte nem regra fixa.
+
 ## Resumo executivo
 
 O personagem flutua principalmente por um erro matemático no `AnimatedSprite2D.offset`: o código calcula o deslocamento já multiplicado por `SPRITE_SCALE`, mas a escala do nó transforma esse deslocamento outra vez. Com a célula atual de 63 px e escala 2,4, o limite inferior da célula fica **105,84 px acima** do ponto físico dos pés (`FLOOR_Y`). A pose de agachamento repete o erro com escala diferente; além disso, usa o idle comprimido em vez de uma animação de agachar. Isso explica os dois sintomas das imagens sem culpar a física da Godot.
