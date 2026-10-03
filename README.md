@@ -35,7 +35,7 @@ Executáveis e caches importados são ignorados pelo Git; a build pode ser regen
 - [`docs/ARQUITETURA.md`](docs/ARQUITETURA.md) — composição técnica e fluxo da luta.
 - [`docs/ARTE_ASSETS_E_LICENCAS.md`](docs/ARTE_ASSETS_E_LICENCAS.md) — assets presentes, procedência e regras de uso.
 - [`docs/ANIMACAO_2D.md`](docs/ANIMACAO_2D.md) — pipeline e recomendações para sprites, quadros e cenários.
-- [`docs/DIAGNOSTICO_E_PESQUISA_ANIMACAO.md`](docs/DIAGNOSTICO_E_PESQUISA_ANIMACAO.md) — pesquisa completa, diagnóstico dos bugs visuais, referências públicas e plano do próximo personagem.
+- [`JUNQ_FIGHT/ANIMACAO_2D_PESQUISA_E_PLANO.md`](JUNQ_FIGHT/ANIMACAO_2D_PESQUISA_E_PLANO.md) — pesquisa completa, diagnóstico dos bugs visuais, referências públicas e plano do próximo personagem.
 - [`docs/DECISOES_E_HISTORICO.md`](docs/DECISOES_E_HISTORICO.md) — escolhas de engine/escopo, histórico dos pushes e validações conhecidas.
 - [`docs/PERSONAGENS_E_CENARIOS.md`](docs/PERSONAGENS_E_CENARIOS.md) — briefs dos lutadores e conceito da arena.
 
