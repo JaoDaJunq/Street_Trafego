@@ -34,58 +34,77 @@ Uma ficha por golpe deve guardar pelo menos: nome, comando, cels, duração por 
 
 ## Fundo sólido para recorte
 
-- Usar uma única cor sólida e uniforme por folha de animação. O padrão é verde chroma puro (`#00FF00`), desde que essa cor não apareça no personagem, roupa, cabelo, acessórios ou contornos.
-- Se o verde aparecer no personagem, escolher antes da produção outra cor sólida e saturada ausente da paleta (por exemplo, magenta `#FF00FF` ou ciano `#00FFFF`). Conferir também tons próximos nas bordas do desenho.
-- Manter a mesma cor de fundo em todos os quadros da folha. Não usar gradiente, textura, iluminação, ruído, sombra, chão, borda ou texto sobre o fundo.
-- Evitar contaminação da cor de recorte nas bordas do personagem. Na preparação para importar, remover a cor de fundo sem apagar pixels da arte e validar o resultado sobre o cenário do jogo.
-- Registrar a cor escolhida nos metadados da folha. Transparência só deve ser usada quando uma etapa específica do pipeline exigir esse formato.
+- O fundo padrão de cada folha é uma cor sólida, uniforme e ausente do personagem e dos contornos. Usar verde chroma puro (`#00FF00`) quando não houver verde na arte; se houver, escolher e registrar outra cor saturada que não exista na paleta.
+- Não colocar chão, sombra, gradiente, textura, iluminação, ruído, borda ou texto no fundo da folha.
+- A folha chroma é a referência de revisão. Só depois da aprovação remover o fundo para criar o PNG com transparência destinado à importação; conferir bordas para não apagar nem contaminar pixels do personagem.
+- Uma folha pode ser um conceito visual sem ser uma spritesheet pronta. O grid aparente não garante cortes, pivôs, escala ou durações corretos.
 
-## Estado atual do pacote do Jão — 03/10/2026
+## Estado atual das animações do Jão — 03/10/2026
 
-As oito folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
+Os conceitos foram criados para análise visual. **Aprovação visual não significa que a animação está fatiada, importada ou pronta no jogo.** As versões atuais para revisão estão no espaço de trabalho privado; desenhos baseados na referência pessoal do Jão não são publicados no repositório público.
 
-| Estado | Folha criada | Situação |
+| Ação | Versão / poses | Estado |
 |---|---|---|
-| Idle | 6 poses | Criada; conferir ritmo do loop e consistência com as demais. |
-| Caminhada lateral | 6 poses | Criada de perfil, voltada à direita; usar a versão lateral corrigida. O rascunho de caminhada de frente foi rejeitado. |
-| Down / agachar | 6 poses | 3 poses descendo e 3 mantendo a guarda baixa. A transição de volta para a posição em pé ainda não tem folha própria. |
-| Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
-| Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
-| Ataque pesado / cruzado reto | 8 poses | Guarda, carga, transferência de peso, extensão/impacto, recuo e retorno; conceito gerado, ainda aguardando revisão e integração. |
-| Defesa em pé / bloqueio alto-médio | 6 poses | Conceito v01 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
-| Defesa abaixada / bloqueio baixo | 6 poses | Conceito v01: guarda agachada, preparação, antebraço protegendo linha baixa, breve impacto e retorno à guarda agachada; aguardando revisão e integração. |
-| Soco abaixado / direto | 6 poses | Conceito v01: sai e retorna à guarda agachada; mantém os pés plantados e acompanha o mesmo braço durante preparação, extensão e recuo; aguardando revisão e integração. |
-| Chute abaixado / chute frontal baixo | 6 poses | Conceito v01: usa a perna atacante aprovada do chute lateral da frente, com trajetória baixa; mesma perna acompanha preparação, extensão, recuo e guarda, apoio permanece plantado; aguardando revisão e integração. |
-| Soco no ar / jump punch | 6 poses | Conceito v01: todos os quadros permanecem no ar; o mesmo braço prepara, estende e retorna à guarda; aguardando revisão e integração. |
-| Chute no ar / jump kick | 6 poses | Conceito v01 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
-| Nocaute / reação, queda e pose final | 6 poses | Conceito v01: reação ao impacto, desequilíbrio, queda e posição final no chão; levantar permanece como animação separada. Aguardando revisão. |
-| Chute lateral leve / perna da frente | 6 poses | Conceito v03 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
-| Chute lateral leve / perna de trás | 6 poses | Conceito v06 reprovado pelo usuário por inconsistência na perna atacante nos quadros 2 e 4. Não integrar; revisar posteriormente. |
+| Idle | v01, 6 poses | Criado; revisão visual pendente. |
+| Caminhada lateral | v02, 6 poses | Criada de perfil para a direita; revisão visual pendente. A caminhada de frente foi rejeitada. |
+| Agachar / Down | v01, 6 poses | Criado; revisar entrada e guarda baixa. Saída do agachamento precisa de transição própria ou teste de reversão. |
+| Salto | v01, 6 poses | Criado; revisão visual pendente. |
+| Jab / ataque leve | v02, 6 poses | Criado; revisão visual pendente. |
+| Cruzado / ataque pesado | v01, 8 poses | Criado; revisão visual pendente. |
+| Defesa em pé | v01, 6 poses | **Aprovado visualmente**; fatiamento e integração pendentes. |
+| Defesa abaixada | v01, 6 poses | Criada; revisão visual pendente. |
+| Soco abaixado | v01, 6 poses | Criado; revisão visual pendente. |
+| Chute abaixado | v01, 6 poses | Criado; revisão visual pendente. |
+| Soco no ar | v01, 6 poses | Criado; revisão visual pendente. |
+| Chute no ar | v01, 6 poses | **Aprovado visualmente**; fatiamento e integração pendentes. |
+| Nocaute | v01, 6 poses | Reação, queda e pose no chão; revisão visual pendente. Levantar é outra animação. |
+| Recuperação do nocaute | v01, 6 poses | Criada agora; revisão visual pendente. |
+| Reação a golpe não letal | v01, 6 poses | Criada agora; revisão visual pendente. |
+| Chute lateral com a perna da frente | v03, 6 poses | **Aprovado visualmente**; fatiamento e integração pendentes. |
+| Chute lateral com a perna de trás | v06, 6 poses | **Reprovado**: nos quadros 2 e 4 a perna que sobe é a errada. Não integrar; está pausado para refazer depois. |
 
-As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
+As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2 e células nominais de 512×512. Essa medida é de conceito: cada cel precisa ser conferida e recortada antes de virar asset. A folha de oito poses deve ser tratada conforme seu leiaute real, sem presumir o mesmo grid.
 
-## Decisões vinculantes para futuras artes do JUNQ FIGHT
+## Decisões visuais que não podem se perder
 
-- Este projeto é um jogo de luta **2D lateral**. Criar os personagens de perfil ou três-quartos lateral, voltados horizontalmente para o oponente. Não usar direções de jogo top-down nem desenhar o lutador de frente para a câmera.
-- **Down significa agachar**: a entrada abaixa o lutador no plano lateral. Não significa caminhar em direção à parte de baixo da tela.
-- Criar primeiro os sprites voltados à direita e espelhá-los horizontalmente para o lado esquerdo. Fazer arte própria para a esquerda somente se o espelhamento prejudicar detalhes assimétricos, anatomia, leitura ou silhueta.
-- Para chutes laterais leves, produzir folhas separadas para a perna da frente e a perna de trás. A rotação do tronco deve acompanhar a perna usada: no chute com a perna da frente, girar quadril e ombros para longe da câmera, mostrando mais as costas; no chute com a perna de trás, girar em direção à câmera, expondo mais o peito. Não manter o tronco na pose neutra do Idle.
-- Rastrear a mesma perna e o mesmo tênis atacante do início da preparação até a extensão, recuo e retorno à guarda; não trocar as pernas no meio do ciclo. O apoio precisa ser biomecanicamente coerente: joelho flexionado em direção ao golpe, pé pivotado na direção do movimento e contato com o chão estável. Na preparação e na recuperação, o apoio deve desfazer o pivô e voltar à posição/ângulo inicial sem deslizar. Conferir a sequência quadro a quadro antes de integrar.
-- A imagem de Street Fighter Alpha 3 enviada pelo usuário serve somente como referência biomecânica do chute lateral; criar personagem e arte originais, sem reproduzir personagem, sprites, cenário ou interface do jogo.
-- Preservar no Jão a direção visual aprovada: cabelo escuro, óculos, jaqueta varsity vinho com mangas creme, moletom claro, calça escura e tênis branco. Manter identidade, proporções, escala e guarda entre os estados.
-- Usar fundo liso chroma verde puro (`#00FF00`) quando essa cor não existir no personagem ou em seus contornos. Se houver verde na arte, selecionar uma única cor alternativa ausente da paleta e registrá-la. Não adicionar gradiente, textura, brilho, sombra ou elementos de cenário ao fundo.
-- Para cada conceito, guardar a folha com fundo chroma e também uma versão PNG RGBA transparente para importação e tratamento no jogo. A remoção do fundo e as bordas devem ser validadas para não apagar nem contaminar pixels do personagem.
-- Fazer poses visualmente distintas e legíveis em sequência. Manter o pivô dos pés e a linha do chão nas poses apoiadas; no salto, elevar o personagem sem mover o ponto de referência do chão. Confirmar tempo por cel dentro do jogo, pois a folha não define sozinha o timing de gameplay.
-- O primeiro pacote de combate deve incluir ao menos um ataque leve, um ataque pesado, bloqueio alto e baixo e uma reação visual ao bloqueio. Manter as animações separadas dos dados de startup, frames ativos, recovery e dano.
-- Criar arte original. A referência a Street Fighter é de gênero e leitura de luta; não reproduzir sprites, personagens ou elementos protegidos dos jogos comerciais.
+- O JUNQ FIGHT é luta 2D lateral. Desenhar Jão em perfil ou três-quartos lateral, voltado horizontalmente ao oponente. “Down” é agachar, não andar para baixo da tela.
+- Preservar identidade do Jão: cabelo escuro, óculos, jaqueta varsity vinho com mangas creme, moletom claro, calça escura e tênis branco. Manter escala, proporções, rosto, roupa e guarda coerentes entre estados.
+- Gerar primeiro voltado para a direita. Espelhar para esquerda só depois de conferir acessórios, assimetrias, mão dominante, silhueta e anatomia.
+- Em cada ataque, identificar qual mão/perna ataca e manter a mesma durante antecipação, contato, recuo e retorno. Não trocar membros entre quadros.
+- Nos chutes laterais, o tronco e a pelve giram junto com a perna usada. Chute da frente mostra mais as costas; chute de trás expõe mais o peito. O pé de apoio flexiona e pivota na direção do golpe, permanece plantado e retorna ao ângulo inicial sem deslizar.
+- Em movimentos apoiados, manter o ponto de apoio e a sola coerentes. Em salto, separar altura do corpo da sombra projetada no chão.
+- A referência enviada de Street Fighter Alpha 3 é apenas referência biomecânica. Personagens, animações, cenários, interface e áudio devem ser originais ou licenciados. O jogo não é afiliado à Capcom.
 
-## O que falta para fechar o pacote jogável
+## Processo obrigatório para cada animação
 
-1. Revisar os conceitos ainda sem aprovação explícita: jab, ataque pesado, defesa abaixada, soco e chute abaixados, soco no ar e nocaute; corrigir anatomia, escala, pivô e leitura quando necessário.
-2. Fatiar as folhas aprovadas com retângulos, nomes, pivô, linha-base e duração por cel; testar Idle, caminhada, agachamento, salto e golpes em sequência.
-3. Criar a animação de levantar após o nocaute e definir a saída do agachamento.
-4. Produzir uma reação a golpe não letal e outras variantes de combate conforme necessário.
-5. Importar e integrar na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento, hitboxes e animações a 60 atualizações por segundo no Acer Nitro V15.
+1. **Definir a ação:** nome, objetivo de gameplay, lado para o qual o personagem olha e número de poses desejado. Uma ação por entrega.
+2. **Planejar a sequência:** escrever o que acontece em cada quadro e indicar membro atacante, apoios no chão, direção do peso e pose final. Em ações com membros alternados, marcar a identidade do membro em todos os quadros.
+3. **Gerar um conceito:** manter uma referência visual aprovada, a grade combinada e o fundo chroma. Não tentar fechar várias ações na mesma folha.
+4. **Revisar quadro a quadro:** verificar identidade, anatomia, continuidade dos membros, equilíbrio, contatos com o chão, silhueta e leitura do começo ao fim. Rejeitar ou corrigir quadros com troca de perna/mão, pé flutuante ou pivô impossível.
+5. **Registrar a decisão do usuário:** aprovado, reprovado ou pedido de ajuste. Não tratar silêncio nem geração concluída como aprovação.
+6. **Finalizar a arte aprovada:** cortar as cels, padronizar área/pivô/baseline, remover o chroma, salvar PNG transparente e registrar nomes, dimensões, ordem e duração de cada cel. Guardar também a folha chroma como referência.
+7. **Integrar na Godot:** importar via `SpriteFrames`/`AnimatedSprite2D`, definir timing e estados de gameplay separadamente da arte e configurar hitboxes/hurtboxes por dados explícitos.
+8. **Validar no jogo:** testar loop e transições em 1280×720, facing nos dois lados, contato com o chão, hitboxes no tick correto, leitura a velocidade real e estabilidade no Acer Nitro V15. Registrar comando, resultado e defeitos encontrados.
+9. **Versionar e avançar:** salvar a versão aprovada e o resultado dos testes. Só então passar à próxima ação; alterações posteriores criam nova versão sem apagar a reprovada.
+
+### Checklist de aprovação visual
+
+- O mesmo personagem e roupa aparecem em todos os quadros.
+- Cada pose é distinta e a ação pode ser entendida só pela silhueta.
+- O membro atacante é o mesmo durante o ciclo.
+- O membro de apoio tem peso, flexão, contato e retorno coerentes.
+- Não há troca de perna/mão, deslizamento involuntário, flutuação ou quadro que antecipe outra ação.
+- A orientação lateral e o chroma permanecem consistentes.
+- O último quadro retorna ao estado correto ou conecta claramente ao próximo estado.
+
+### Pendências antes de considerar o pacote de animação jogável
+
+1. Revisar as folhas ainda sem aprovação explícita: idle, caminhada, agachar, salto, jab, cruzado, defesa abaixada, soco abaixado, chute abaixado, soco no ar, nocaute, recuperação e reação não letal.
+2. Fatiar e preparar para engine as três folhas aprovadas: defesa em pé, chute no ar e chute lateral da perna da frente.
+3. Definir/corrigir entrada e saída do agachamento e confirmar transições de todas as animações para guarda, salto, queda e recuperação.
+4. Depois da aprovação, criar os arquivos transparentes, metadados de corte/pivô/duração e as fichas de frame data.
+5. Integrar uma ação por vez na Godot e testar baseline, espelhamento, colisão, hitboxes, timing, loops, desempenho e regressões no protótipo.
+6. Manter pausado o chute lateral da perna de trás até refazê-lo com a perna atacante e o pé de apoio corretos.
 
 ## Cenário por planos
 
