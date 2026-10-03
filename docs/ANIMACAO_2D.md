@@ -72,7 +72,7 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Conceito visual | v02 | Aprovado; aura rosa. |
 | Idle | v04, 6 poses | Aprovado visualmente; fatiamento, transparência, pivôs e integração pendentes. |
 | Caminhada lateral | v01, 6 poses | Criada de perfil para a direita, ciclo em grade visual 3×2 e fundo chroma verde; revisão visual pendente. Ainda não está fatiada ou integrada. |
-| Agachar e levantar | — | Pendente. |
+| Agachar / Down | v01, 6 poses | Criado para revisão: descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Ainda não aprovado nem integrado. |
 | Salto e aterrissagem | — | Pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Socos leve e pesado | — | Pendente. |
