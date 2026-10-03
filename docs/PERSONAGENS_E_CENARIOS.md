@@ -49,6 +49,10 @@ Aprovada pelo usuário em 03/10/2026. A folha mostra a transferência sutil de p
 
 Criada em 03/10/2026: ciclo de seis poses de caminhada em perfil para a direita, guarda de combate, aura rosa e fundo chroma verde. A folha permanece no espaço de trabalho privado e ainda precisa de aprovação, recorte e integração.
 
+### Agachar / Down v01 — aguardando revisão
+
+Criado em 03/10/2026 em seis poses, da guarda em pé até a posição baixa. Os pés permanecem apoiados; a animação de voltar a ficar em pé será produzida separadamente. A folha é conceito privado, ainda sem aprovação, recorte ou integração.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
