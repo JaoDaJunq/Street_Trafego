@@ -40,6 +40,38 @@ Uma ficha por golpe deve guardar pelo menos: nome, comando, cels, duração por 
 - Evitar contaminação da cor de recorte nas bordas do personagem. Na preparação para importar, remover a cor de fundo sem apagar pixels da arte e validar o resultado sobre o cenário do jogo.
 - Registrar a cor escolhida nos metadados da folha. Transparência só deve ser usada quando uma etapa específica do pipeline exigir esse formato.
 
+## Estado atual do pacote do Jão — 03/10/2026
+
+As quatro folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
+
+| Estado | Folha criada | Situação |
+|---|---|---|
+| Idle | 6 poses | Criada; conferir ritmo do loop e consistência com as demais. |
+| Caminhada lateral | 6 poses | Criada de perfil, voltada à direita; usar a versão lateral corrigida. O rascunho de caminhada de frente foi rejeitado. |
+| Down / agachar | 6 poses | 3 poses descendo e 3 mantendo a guarda baixa. A transição de volta para a posição em pé ainda não tem folha própria. |
+| Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
+
+As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
+
+## Decisões vinculantes para futuras artes do JUNQ FIGHT
+
+- Este projeto é um jogo de luta **2D lateral**. Criar os personagens de perfil ou três-quartos lateral, voltados horizontalmente para o oponente. Não usar direções de jogo top-down nem desenhar o lutador de frente para a câmera.
+- **Down significa agachar**: a entrada abaixa o lutador no plano lateral. Não significa caminhar em direção à parte de baixo da tela.
+- Criar primeiro os sprites voltados à direita e espelhá-los horizontalmente para o lado esquerdo. Fazer arte própria para a esquerda somente se o espelhamento prejudicar detalhes assimétricos, anatomia, leitura ou silhueta.
+- Preservar no Jão a direção visual aprovada: cabelo escuro, óculos, jaqueta varsity vinho com mangas creme, moletom claro, calça escura e tênis branco. Manter identidade, proporções, escala e guarda entre os estados.
+- Usar fundo liso chroma verde puro (`#00FF00`) quando essa cor não existir no personagem ou em seus contornos. Se houver verde na arte, selecionar uma única cor alternativa ausente da paleta e registrá-la. Não adicionar gradiente, textura, brilho, sombra ou elementos de cenário ao fundo.
+- Para cada conceito, guardar a folha com fundo chroma e também uma versão PNG RGBA transparente para importação e tratamento no jogo. A remoção do fundo e as bordas devem ser validadas para não apagar nem contaminar pixels do personagem.
+- Fazer poses visualmente distintas e legíveis em sequência. Manter o pivô dos pés e a linha do chão nas poses apoiadas; no salto, elevar o personagem sem mover o ponto de referência do chão. Confirmar tempo por cel dentro do jogo, pois a folha não define sozinha o timing de gameplay.
+- Criar arte original. A referência a Street Fighter é de gênero e leitura de luta; não reproduzir sprites, personagens ou elementos protegidos dos jogos comerciais.
+
+## O que falta para fechar o pacote jogável
+
+1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
+2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
+3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
+4. Produzir guarda alta, reação de bloqueio, jab, golpe forte, chute, reação ao dano, queda/K.O. e levantar.
+5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
+
 ## Cenário por planos
 
 Organizar cenário em fundo distante, plano intermediário, plano de luta/chão e elementos de primeiro plano. Cada plano tem velocidade/parallax e regra de oclusão próprias. O primeiro plano deve emoldurar sem encobrir os lutadores nem confundir a linha dos pés. Manter colisão, limites e linha de chão separados da arte decorativa.
