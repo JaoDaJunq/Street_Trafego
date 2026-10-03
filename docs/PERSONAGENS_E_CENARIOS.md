@@ -45,6 +45,10 @@ A troca de peso entre as pernas ficou quase imperceptível. Não usar esta vers�
 
 Aprovada pelo usuário em 03/10/2026. A folha mostra a transferência sutil de peso do apoio traseiro para o dianteiro, mantendo a guarda dos braços fixa, os pés apoiados e movimento leve no cabelo e nas pontas da faixa. Perfil para a direita, aura rosa e folha visual 3×2. Ainda precisa ser fatiada, ter transparência e pivôs preparados e ser integrada ao jogo; a arte permanece privada.
 
+### Caminhada lateral v01 — aguardando revisão
+
+Criada em 03/10/2026: ciclo de seis poses de caminhada em perfil para a direita, guarda de combate, aura rosa e fundo chroma verde. A folha permanece no espaço de trabalho privado e ainda precisa de aprovação, recorte e integração.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
