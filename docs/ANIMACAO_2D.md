@@ -52,8 +52,8 @@ As oito folhas abaixo são conceitos visuais gerados para revisão. Ainda não f
 | Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
 | Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 | Ataque pesado / cruzado reto | 8 poses | Guarda, carga, transferência de peso, extensão/impacto, recuo e retorno; conceito gerado, ainda aguardando revisão e integração. |
-| Chute lateral leve / perna direita | 6 poses | Folha separada, de perfil e para a frente; conferir a perna atacante e a de apoio antes de integrar. |
-| Chute lateral leve / perna esquerda | 6 poses | Folha separada, de perfil e para a frente; conferir a perna atacante e a de apoio antes de integrar. |
+| Chute lateral leve / perna da frente | 6 poses | Conceito anatômico v02: na execução, quadril e ombros giram para longe da câmera e mostram mais as costas; revisar perna atacante e apoio. |
+| Chute lateral leve / perna de trás | 6 poses | Conceito anatômico v03: na execução, quadril e ombros giram em direção à câmera e expõem mais o peito; revisar perna atacante e apoio. |
 
 As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
 
@@ -62,7 +62,8 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 - Este projeto é um jogo de luta **2D lateral**. Criar os personagens de perfil ou três-quartos lateral, voltados horizontalmente para o oponente. Não usar direções de jogo top-down nem desenhar o lutador de frente para a câmera.
 - **Down significa agachar**: a entrada abaixa o lutador no plano lateral. Não significa caminhar em direção à parte de baixo da tela.
 - Criar primeiro os sprites voltados à direita e espelhá-los horizontalmente para o lado esquerdo. Fazer arte própria para a esquerda somente se o espelhamento prejudicar detalhes assimétricos, anatomia, leitura ou silhueta.
-- Para chutes laterais leves, produzir folhas separadas por perna. Conferir visualmente a perna que golpeia e a de apoio antes de integrar, pois a vista lateral pode fazê-las se sobrepor.
+- Para chutes laterais leves, produzir folhas separadas para a perna da frente e a perna de trás. A rotação do tronco deve acompanhar a perna usada: no chute com a perna da frente, girar quadril e ombros para longe da câmera, mostrando mais as costas; no chute com a perna de trás, girar em direção à câmera, expondo mais o peito. Não manter o tronco na pose neutra do Idle. Conferir visualmente a perna atacante, a de apoio e a anatomia antes de integrar.
+- A imagem de Street Fighter Alpha 3 enviada pelo usuário serve somente como referência biomecânica do chute lateral; criar personagem e arte originais, sem reproduzir personagem, sprites, cenário ou interface do jogo.
 - Preservar no Jão a direção visual aprovada: cabelo escuro, óculos, jaqueta varsity vinho com mangas creme, moletom claro, calça escura e tênis branco. Manter identidade, proporções, escala e guarda entre os estados.
 - Usar fundo liso chroma verde puro (`#00FF00`) quando essa cor não existir no personagem ou em seus contornos. Se houver verde na arte, selecionar uma única cor alternativa ausente da paleta e registrá-la. Não adicionar gradiente, textura, brilho, sombra ou elementos de cenário ao fundo.
 - Para cada conceito, guardar a folha com fundo chroma e também uma versão PNG RGBA transparente para importação e tratamento no jogo. A remoção do fundo e as bordas devem ser validadas para não apagar nem contaminar pixels do personagem.
@@ -75,7 +76,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
 2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
 3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Produzir guarda/bloqueio alto e baixo, reação ao bloqueio, chutes pesados e outras variantes, reação ao dano, queda/K.O. e levantar.
+4. Revisar as duas novas folhas de chute lateral leve, corrigir anatomia ou continuidade se necessário, e então produzir guarda/bloqueio alto e baixo, reação ao bloqueio, chutes pesados e outras variantes, reação ao dano, queda/K.O. e levantar.
 5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
