@@ -12,31 +12,40 @@ Registro criativo de produção. A arte final será original; sprites licenciado
 
 ## Lutadora 2 — Alice (selecionada para o teste 1×1)
 
-Alice está confirmada como o segundo personagem do teste local. O nome está definido; aparência de combate, roupa, paleta, silhueta, personalidade de luta e golpes ainda precisam de decisão. Não tratar ideias antigas do assistente como escolhas aprovadas.
+Alice está confirmada como o segundo personagem para o teste local. A foto de referência foi fornecida para esta criação e permanece privada, fora do repositório público.
 
-### Brief a fechar
+### Direção confirmada pelo usuário
 
-- **Referência visual:** foto autorizada de Alice, concept anterior escolhido por vocês ou criação estilizada sem buscar semelhança direta. Referências pessoais e artes derivadas delas ficam fora do repositório público.
-- **Visual:** cabelo/rosto, roupa de luta, paleta principal, calçado e um detalhe que a diferencie do Jão. Definir também itens que não devem aparecer.
-- **Identidade de combate:** distância preferida, postura/guarda, movimentação, membro dominante e sensação que a luta deve transmitir. Não presumir armas, poderes ou tema de nail art.
-- **Compatibilidade para teste:** mesma câmera lateral, altura visual comparável, baseline/pivô compartilhado, leitura clara de guarda e ataques, arte-base virada à direita. Revisar flip horizontal antes de usar à esquerda.
-- **Kit mínimo para jogar com dois personagens:** idle, caminhada, agachar/voltar, salto/aterrissagem, guarda alta e baixa, ataque leve, ataque forte, reação a golpe, nocaute e recuperação. Socos/chutes no ar e variantes extras entram no pacote se forem necessárias para testar os comandos correspondentes.
+- Misturar o estilo cotidiano dela com roupa original de lutadora.
+- Usar uma faixa de luta na cabeça ou detalhe equivalente.
+- Priorizar socos rápidos.
+- Explorar poderes ligados aos golpes, incluindo a ideia de um combo de três socos que libera energia.
+- A defesa poderá usar uma barreira.
+- Cores/detalhes específicos e golpe assinatura ainda não foram definidos.
 
-### Processo
+### Conceito visual v01
 
-1. Escolher e aprovar a referência e o brief visual antes de desenhar a folha de modelo.
-2. Aprovar uma pose lateral neutra e a guarda da Alice, comparando escala e linha dos pés com o Jão.
-3. Produzir uma animação por entrega pelo processo do [guia de animação 2D](ANIMACAO_2D.md): storyboard, conceito, revisão quadro a quadro, aprovação explícita, fatiamento e integração.
-4. Testar Alice e Jão na mesma arena, no mesmo enquadramento e nos dois lados, conferindo escala, baseline, hitboxes, leitura e desempenho.
-5. Guardar conceitos baseados em referência pessoal fora do GitHub público; versionar no repositório apenas documentação e arquivos que não exponham referência pessoal, conforme a política do projeto.
+Concept criado em 03/10/2026 para revisão, ainda não aprovado. Usa cabelo castanho claro longo, óculos, blusa vinho, calça larga escura, tênis claro, faixa vinho e um brilho violeta-azulado discreto nos punhos. A faixa de cabeça e a roupa adaptam elementos visíveis na referência enviada. A cor e o efeito mágico da imagem são uma exploração visual, não uma decisão fechada do usuário.
 
-### Informações que faltam para começar a arte
+O arquivo de arte derivado da referência fica no espaço de trabalho privado; este repositório público registra somente o brief e o estado do conceito.
 
-- Uma referência visual aprovada por Alice ou um concept anterior escolhido por vocês.
-- Roupa de luta: baseada no estilo cotidiano dela, roupa totalmente original de fighter ou mistura.
-- Paleta e elementos visuais que representam Alice, além do que evitar.
-- Estilo de luta preferido e como deve se movimentar.
-- Um golpe ou gesto assinatura para diferenciá-la do Jão.
+### Brief ainda a fechar
+
+- Confirmar se o rosto, cabelo, roupa, faixa e silhueta do conceito v01 representam Alice.
+- Ajustar detalhes visuais e paleta se ela ou o usuário pedirem.
+- Definir postura/guarda, lado dominante, movimento e alcance preferido.
+- Transformar o combo mágico de três socos e a barreira em regras de gameplay depois da aprovação visual.
+- Definir um golpe/gesto assinatura futuramente; nenhum foi escolhido por enquanto.
+- Manter altura visual, pivô/linha dos pés, câmera lateral e proporção compatíveis com o Jão.
+
+### Processo de produção
+
+1. Aprovar/corrigir o conceito visual antes da folha de modelo.
+2. Fechar pose lateral neutra e guarda da Alice, comparando escala e baseline com o Jão.
+3. Produzir uma animação por entrega pelo [guia de animação 2D](ANIMACAO_2D.md): planejar poses, gerar conceito, revisar quadro a quadro, registrar aprovação, fatiar e integrar.
+4. Para o primeiro teste 1×1, cobrir idle, caminhada, agachar/voltar, salto/aterrissagem, defesa alta/baixa, ataque leve/forte, reação a golpe, nocaute e recuperação. Adicionar combo mágico e barreira depois que os estados básicos estiverem jogáveis.
+5. Testar Alice e Jão na mesma arena, nos dois lados, verificando escala, baseline, hitboxes, leitura e desempenho.
+6. Manter foto e arte derivada fora do GitHub público; versionar apenas materiais que não exponham a referência pessoal, conforme a política do projeto.
 
 ## Personagens placeholder
 
