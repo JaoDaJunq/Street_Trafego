@@ -53,7 +53,7 @@ As oito folhas abaixo são conceitos visuais gerados para revisão. Ainda não f
 | Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 | Ataque pesado / cruzado reto | 8 poses | Guarda, carga, transferência de peso, extensão/impacto, recuo e retorno; conceito gerado, ainda aguardando revisão e integração. |
 | Chute lateral leve / perna da frente | 6 poses | Conceito v03: tronco gira para mostrar mais as costas; perna atacante permanece a mesma no ciclo; joelho e pé de apoio flexionam/pivotam para o golpe. Aguardando revisão. |
-| Chute lateral leve / perna de trás | 6 poses | Conceito v06: quadros 2 e 4 corrigidos após revisão; o pé de apoio permanece plantado e a perna oposta executa o chute. Manter continuidade do mesmo pé até retornar à guarda. Aguardando aprovação. |
+| Chute lateral leve / perna de trás | 6 poses | Conceito v06 reprovado pelo usuário por inconsistência na perna atacante nos quadros 2 e 4. Não integrar; revisar posteriormente. |
 
 As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
 
