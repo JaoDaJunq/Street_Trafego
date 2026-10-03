@@ -41,9 +41,9 @@ O usuário identificou duplicação de braço e movimento exagerado em relação
 
 A troca de peso entre as pernas ficou quase imperceptível. Não usar esta versão no jogo.
 
-### Animação idle v04 — aguardando revisão
+### Animação idle v04 — aprovada visualmente
 
-Criada em 03/10/2026 para tornar a transferência de peso do apoio traseiro para o dianteiro mais legível, mantendo a guarda dos braços fixa. A proposta preserva os dois braços, os pés apoiados e movimenta levemente cabelo e pontas da faixa. Perfil para a direita, aura rosa e folha visual 3×2. Ainda é conceito, não está fatiada ou integrada; a arte permanece privada.
+Aprovada pelo usuário em 03/10/2026. A folha mostra a transferência sutil de peso do apoio traseiro para o dianteiro, mantendo a guarda dos braços fixa, os pés apoiados e movimento leve no cabelo e nas pontas da faixa. Perfil para a direita, aura rosa e folha visual 3×2. Ainda precisa ser fatiada, ter transparência e pivôs preparados e ser integrada ao jogo; a arte permanece privada.
 
 ### Brief ainda a fechar
 
