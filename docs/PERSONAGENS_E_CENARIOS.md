@@ -25,16 +25,18 @@ Alice está confirmada como o segundo personagem para o teste local. A foto de r
 
 ### Conceito visual v01
 
-Concept criado em 03/10/2026 para revisão, ainda não aprovado. Usa cabelo castanho claro longo, óculos, blusa vinho, calça larga escura, tênis claro, faixa vinho e um brilho violeta-azulado discreto nos punhos. A faixa de cabeça e a roupa adaptam elementos visíveis na referência enviada. A cor e o efeito mágico da imagem são uma exploração visual, não uma decisão fechada do usuário.
+**Aprovado pelo usuário em 03/10/2026.** Alice aparece com cabelo castanho claro longo, óculos, blusa vinho, calça larga escura, tênis claro e faixa de luta vinho. A roupa mistura referências do estilo cotidiano com elementos de lutadora. A aura nos punhos foi alterada para rosa por decisão do usuário.
 
-O arquivo de arte derivado da referência fica no espaço de trabalho privado; este repositório público registra somente o brief e o estado do conceito.
+A referência e a arte derivada permanecem no espaço de trabalho privado. Este repositório público registra o brief e o estado, sem publicar a imagem pessoal.
+
+### Animação idle v01
+
+Criada em 03/10/2026 para revisão: seis poses em grade visual 3×2, perfil para a direita, guarda de socos rápidos, pés apoiados e aura rosa suave no punho da frente. **O idle ainda aguarda aprovação visual.** O arquivo de conceito permanece privado; depois de aprovado, ainda precisa ser fatiado, alinhado e importado.
 
 ### Brief ainda a fechar
 
-- Confirmar se o rosto, cabelo, roupa, faixa e silhueta do conceito v01 representam Alice.
-- Ajustar detalhes visuais e paleta se ela ou o usuário pedirem.
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
-- Transformar o combo mágico de três socos e a barreira em regras de gameplay depois da aprovação visual.
+- Transformar o combo mágico de três socos e a barreira em regras de gameplay após fechar os estados básicos.
 - Definir um golpe/gesto assinatura futuramente; nenhum foi escolhido por enquanto.
 - Manter altura visual, pivô/linha dos pés, câmera lateral e proporção compatíveis com o Jão.
 
