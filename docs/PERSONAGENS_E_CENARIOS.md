@@ -29,16 +29,20 @@ Alice está confirmada como o segundo personagem para o teste local. A foto de r
 
 A referência e a arte derivada permanecem no espaço de trabalho privado. Este repositório público registra o brief e o estado, sem publicar a imagem pessoal.
 
-### Animação idle v01
+### Animação idle v01 — reprovada
 
-Criada em 03/10/2026 para revisão: seis poses em grade visual 3×2, perfil para a direita, guarda de socos rápidos, pés apoiados e aura rosa suave no punho da frente. **O idle ainda aguarda aprovação visual.** O arquivo de conceito permanece privado; depois de aprovado, ainda precisa ser fatiado, alinhado e importado.
+O usuário apontou que as seis poses pareciam praticamente iguais. Não usar esta versão no jogo.
+
+### Animação idle v02 — aguardando revisão
+
+Criada em 03/10/2026 para substituir a v01: seis poses mais distintas, com guarda neutra, afundamento dos joelhos, subida/bounce, pequeno shuffle à frente e recuperação do peso. Perfil para a direita, aura rosa e sequência em grade visual 3×2. Ainda é conceito, não está fatiada ou integrada. O arquivo permanece privado.
 
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
 - Transformar o combo mágico de três socos e a barreira em regras de gameplay após fechar os estados básicos.
 - Definir um golpe/gesto assinatura futuramente; nenhum foi escolhido por enquanto.
-- Manter altura visual, pivô/linha dos pés, câmera lateral e proporção compatíveis com o Jão.
+- Manter altura visual, pivô/linha dos pés, câmera lateral e proporção compatíveis com o Jão. As alturas reais e a proporção de referência estão guardadas em nota privada; não redimensionar os sprites agora. Ajustar escala de jogo só na integração.
 
 ### Processo de produção
 
