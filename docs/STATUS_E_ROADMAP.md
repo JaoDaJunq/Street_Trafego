@@ -1,52 +1,59 @@
 # Estado e roadmap
 
-Última revisão deste documento: 2026-10-02. O repositório descreve o protótipo atual; itens futuros não devem ser interpretados como recursos disponíveis.
+Última revisão: 2026-10-03. Este documento separa o protótipo que já existe dos conceitos de arte em revisão.
 
 ## Situação atual
 
-**Base:** Godot 4.7.2, GDScript, renderizador Compatibility, viewport 1280×720 com `canvas_items`. A migração visual de 3D para luta lateral 2D foi feita sem trocar de engine.
+**Base executável documentada:** Godot 4.7.2, GDScript, renderer Compatibility, viewport 1280×720. O projeto é uma luta local 1×1 para Windows, feita para jogar entre amigos.
 
-**Protótipo:** arena urbana, P1 e P2 locais, controles no teclado, movimento, salto/agachamento, bloqueio frontal mantendo para trás, ataques básicos, dano e rounds. As artes atuais são placeholders CC0. Ainda falta substituir os placeholders por lutadores autorais.
+**Protótipo:** arena lateral 2D, dois lutadores placeholder CC0, movimento, salto/agachamento, defesa, ataque, dano e rounds. Os conceitos do Jão ainda não substituem os placeholders no jogo.
 
-**Validação conhecida:** a documentação local relata carregamento headless da cena e export de uma build Windows em desenvolvimento. O runner automatizado não confirmou claramente o resultado dos testes. Portanto, testes de fluxo, revisão visual e execução em instalação limpa permanecem pendentes.
+**Arte do Jão:** folhas visuais estão em produção e revisão, mas não são assets finais de engine. A defesa em pé, o chute no ar e o chute lateral com a perna da frente foram aprovados visualmente. Fatiamento, pivôs, tempos, transparência e integração ainda estão pendentes. A recuperação do nocaute e a reação não letal foram criadas em 03/10 e aguardam revisão. O chute lateral com a perna de trás v06 foi reprovado e permanece pausado.
 
-## Pendências prioritárias
+O inventário atualizado e o processo obrigatório estão em [ANIMACAO_2D.md](ANIMACAO_2D.md). A pesquisa técnica detalhada está em [ANIMACAO_2D_PESQUISA_E_PLANO.md](../JUNQ_FIGHT/ANIMACAO_2D_PESQUISA_E_PLANO.md).
 
-1. Corrigir e validar o alinhamento dos pés ao chão: o sprite parece flutuar; a animação de agachar parece afundar. Usar um ponto de ancoragem comum (sola/ground pivot) para todos os cels, sem alterar o chão físico.
-2. Separar sombra do corpo que salta, mantendo-a projetada no plano do chão.
-3. Fazer revisão de composição e oclusão dos elementos de primeiro plano do cenário, para não esconder nem sobrepor os lutadores de forma confusa.
-4. Rodar a cena e os testes de fluxo de rounds no Godot local; registrar claramente comandos e resultado.
-5. Definir o esquema final de controles (teclado e/ou gamepads) e adicionar input remapeável antes de ampliar os comandos.
-6. Produzir conceito original do primeiro lutador e um pequeno conjunto de estados para testar a pipeline de arte dentro do jogo.
+**Validação conhecida:** registros anteriores relatam carregamento headless e export de build, mas o runner não confirmou claramente os testes automatizados. Execução visual, fluxo completo e teste em instalação limpa no Acer Nitro V15 ainda precisam ser registrados.
 
-## Sequência sugerida
+## Próximas etapas
 
-### A — Estabilizar o protótipo
+### A — Revisar conceitos
 
-- Ajustar baseline, pivô, agachamento, sombra, camadas de cenário e leitura visual.
-- Validar movimento, defesa, ataques, colisões, rounds, pausa e revanche sem regressões.
-- Confirmar execução/export no Windows-alvo e medir memória/desempenho.
+- Revisar um movimento por vez e marcar explicitamente aprovado, reprovado ou precisa de ajuste.
+- Corrigir continuidade anatômica, equilíbrio, apoio, direção e leitura antes de fatiar.
+- Manter pausado o chute da perna de trás até ser refeito corretamente.
 
-### B — Primeiro lutador (vertical slice)
+### B — Preparar as animações aprovadas
 
-- Aprovar brief, silhueta, paleta, vista lateral, escala e pivô dos pés.
-- Criar sprites originais para idle, caminhada, agachamento, salto, defesa, ataques básicos, dano e nocaute.
-- Integrar animações à lógica existente e revisar hitboxes, timing, legibilidade e consistência de escala.
+- Recortar os quadros e registrar nome, ordem, dimensões, pivô, linha-base e duração.
+- Produzir PNG transparente derivado da folha chroma e verificar as bordas.
+- Separar timing visual de startup, janela ativa, recovery, dano, hitstop e hitboxes.
 
-### C — Conteúdo mínimo de jogo
+### C — Integrar um pacote vertical
 
-- Criar segundo lutador e arena final; polir efeitos, áudio e HUD.
-- Concluir seleção/fluxo da partida, opções básicas e sessão de testes com amigos.
-- Gerar build privada Windows limpa e verificar instalação em máquina alvo.
+- Integrar primeiro idle, caminhada, agachamento, salto, guarda, ataque leve, reação a golpe e nocaute/recuperação.
+- Validar transições, orientação para os dois lados, baseline, sombra, colisões e hitboxes na cena.
+- Repetir testes da lógica de rounds e dos controles após cada integração.
 
-### D — Depois do MVP
+### D — Validar no computador-alvo
 
-Treino avançado, CPU, tutorial, mais personagens/arenas e online privado são expansões. Netcode/rollback só deve ser iniciado após a simulação local estar determinística, testada e estável.
+- Abrir e jogar a build no Acer Nitro V15; conferir legibilidade em 1280×720, desempenho, áudio, instalação limpa e controles.
+- Registrar os comandos executados e resultados; não declarar validado apenas por compilação ou execução headless.
 
-## Critério para considerar o MVP pronto
+### E — Fechar o MVP
+
+- Criar o segundo lutador e finalizar uma arena autoral.
+- Realizar uma sessão local com amigos e corrigir os problemas observados.
+- Gerar uma build privada de Windows e preservar a versão testada.
+
+## Depois do MVP
+
+Modo online, rollback, CPU, tutorial, mais lutadores/arenas e opções avançadas ficam para depois de uma partida local estável e testada.
+
+## Critério de pronto para o MVP
 
 - Dois lutadores visualmente distintos e uma arena final.
-- Partida local completa, revanche e controles entendíveis.
-- Sem bugs de pés flutuando/afundando, atravessamento lateral indevido ou oclusões ruins.
-- Testes de regressão e uma sessão prolongada concluídos; build instalada e aberta em ambiente limpo.
-- Direitos/licenças de cada asset e dependência documentados.
+- Partida local completa, controles entendíveis, rounds e revanche.
+- Pés alinhados ao chão, agachamento sem afundar, sombra coerente no salto e sem oclusões ruins.
+- Testes de regressão e sessão prolongada concluídos.
+- Build instalada e aberta em ambiente limpo no computador-alvo.
+- Procedência/licença de cada asset documentada.
