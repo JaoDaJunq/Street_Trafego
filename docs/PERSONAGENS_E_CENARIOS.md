@@ -23,9 +23,9 @@ Alice está confirmada como o segundo personagem para o teste local. A foto de r
 - A defesa poderá usar uma barreira.
 - Cores/detalhes específicos e golpe assinatura ainda não foram definidos.
 
-### Conceito visual v01
+### Conceito visual v02
 
-**Aprovado pelo usuário em 03/10/2026.** Alice aparece com cabelo castanho claro longo, óculos, blusa vinho, calça larga escura, tênis claro e faixa de luta vinho. A roupa mistura referências do estilo cotidiano com elementos de lutadora. A aura nos punhos foi alterada para rosa por decisão do usuário.
+**Aprovado pelo usuário em 03/10/2026.** A v01 teve apenas a cor da aura corrigida a pedido do usuário. Alice aparece com cabelo castanho claro longo, óculos, blusa vinho, calça larga escura, tênis claro e faixa de luta vinho. A roupa mistura referências do estilo cotidiano com elementos de lutadora. A aura nos punhos foi alterada para rosa por decisão do usuário.
 
 A referência e a arte derivada permanecem no espaço de trabalho privado. Este repositório público registra o brief e o estado, sem publicar a imagem pessoal.
 
