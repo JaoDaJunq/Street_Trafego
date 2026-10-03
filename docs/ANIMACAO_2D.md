@@ -52,14 +52,14 @@ As oito folhas abaixo são conceitos visuais gerados para revisão. Ainda não f
 | Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
 | Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 | Ataque pesado / cruzado reto | 8 poses | Guarda, carga, transferência de peso, extensão/impacto, recuo e retorno; conceito gerado, ainda aguardando revisão e integração. |
-| Defesa em pé / bloqueio alto-médio | 6 poses | Conceito v01: preparação, bloqueio protegendo cabeça/parte superior, breve sustentação e retorno à guarda; aguardando revisão e integração. |
+| Defesa em pé / bloqueio alto-médio | 6 poses | Conceito v01 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
 | Defesa abaixada / bloqueio baixo | 6 poses | Conceito v01: guarda agachada, preparação, antebraço protegendo linha baixa, breve impacto e retorno à guarda agachada; aguardando revisão e integração. |
 | Soco abaixado / direto | 6 poses | Conceito v01: sai e retorna à guarda agachada; mantém os pés plantados e acompanha o mesmo braço durante preparação, extensão e recuo; aguardando revisão e integração. |
 | Chute abaixado / chute frontal baixo | 6 poses | Conceito v01: usa a perna atacante aprovada do chute lateral da frente, com trajetória baixa; mesma perna acompanha preparação, extensão, recuo e guarda, apoio permanece plantado; aguardando revisão e integração. |
 | Soco no ar / jump punch | 6 poses | Conceito v01: todos os quadros permanecem no ar; o mesmo braço prepara, estende e retorna à guarda; aguardando revisão e integração. |
-| Chute no ar / jump kick | 6 poses | Conceito v01: todos os quadros permanecem no ar; a perna da frente aprovada prepara, estende e retorna enquanto a outra fica recolhida; aguardando revisão e integração. |
+| Chute no ar / jump kick | 6 poses | Conceito v01 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
 | Nocaute / reação, queda e pose final | 6 poses | Conceito v01: reação ao impacto, desequilíbrio, queda e posição final no chão; levantar permanece como animação separada. Aguardando revisão. |
-| Chute lateral leve / perna da frente | 6 poses | Conceito v03: tronco gira para mostrar mais as costas; perna atacante permanece a mesma no ciclo; joelho e pé de apoio flexionam/pivotam para o golpe. Aguardando revisão. |
+| Chute lateral leve / perna da frente | 6 poses | Conceito v03 aprovado visualmente pelo usuário; falta fatiar e integrar no jogo. |
 | Chute lateral leve / perna de trás | 6 poses | Conceito v06 reprovado pelo usuário por inconsistência na perna atacante nos quadros 2 e 4. Não integrar; revisar posteriormente. |
 
 As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
@@ -81,11 +81,11 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 
 ## O que falta para fechar o pacote jogável
 
-1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
-2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
-3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Revisar os conceitos de combate; produzir a animação de levantar e variantes adicionais conforme necessário.
-5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
+1. Revisar os conceitos ainda sem aprovação explícita: jab, ataque pesado, defesa abaixada, soco e chute abaixados, soco no ar e nocaute; corrigir anatomia, escala, pivô e leitura quando necessário.
+2. Fatiar as folhas aprovadas com retângulos, nomes, pivô, linha-base e duração por cel; testar Idle, caminhada, agachamento, salto e golpes em sequência.
+3. Criar a animação de levantar após o nocaute e definir a saída do agachamento.
+4. Produzir uma reação a golpe não letal e outras variantes de combate conforme necessário.
+5. Importar e integrar na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento, hitboxes e animações a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
 
