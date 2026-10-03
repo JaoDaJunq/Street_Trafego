@@ -10,7 +10,7 @@
 
 **Arte do Jão:** folhas visuais estão em produção e revisão, mas não são assets finais de engine. A defesa em pé, o chute no ar e o chute lateral com a perna da frente foram aprovados visualmente. Fatiamento, pivôs, tempos, transparência e integração ainda estão pendentes. A recuperação do nocaute e a reação não letal foram criadas em 03/10 e aguardam revisão. O chute lateral com a perna de trás v06 foi reprovado e permanece pausado.
 
-O inventário atualizado e o processo obrigatório estão em [ANIMACAO_2D.md](ANIMACAO_2D.md). A pesquisa técnica detalhada está em [ANIMACAO_2D_PESQUISA_E_PLANO.md](../JUNQ_FIGHT/ANIMACAO_2D_PESQUISA_E_PLANO.md).
+**Alice:** escolhida para ser a segunda lutadora do teste local. Brief fechado parcialmente: roupa casual adaptada para fighter com faixa de cabeça, socos rápidos, combo mágico de três golpes e defesa em barreira. O conceito visual v01 foi criado e aguarda aprovação; seu brilho violeta-azulado é apenas uma exploração visual. O inventário atualizado e o processo obrigatório estão em [ANIMACAO_2D.md](ANIMACAO_2D.md). A pesquisa técnica detalhada está em [ANIMACAO_2D_PESQUISA_E_PLANO.md](../JUNQ_FIGHT/ANIMACAO_2D_PESQUISA_E_PLANO.md).
 
 **Validação conhecida:** registros anteriores relatam carregamento headless e export de build, mas o runner não confirmou claramente os testes automatizados. Execução visual, fluxo completo e teste em instalação limpa no Acer Nitro V15 ainda precisam ser registrados.
 
