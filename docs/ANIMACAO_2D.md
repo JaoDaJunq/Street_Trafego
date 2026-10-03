@@ -62,6 +62,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 - Usar fundo liso chroma verde puro (`#00FF00`) quando essa cor não existir no personagem ou em seus contornos. Se houver verde na arte, selecionar uma única cor alternativa ausente da paleta e registrá-la. Não adicionar gradiente, textura, brilho, sombra ou elementos de cenário ao fundo.
 - Para cada conceito, guardar a folha com fundo chroma e também uma versão PNG RGBA transparente para importação e tratamento no jogo. A remoção do fundo e as bordas devem ser validadas para não apagar nem contaminar pixels do personagem.
 - Fazer poses visualmente distintas e legíveis em sequência. Manter o pivô dos pés e a linha do chão nas poses apoiadas; no salto, elevar o personagem sem mover o ponto de referência do chão. Confirmar tempo por cel dentro do jogo, pois a folha não define sozinha o timing de gameplay.
+- O primeiro pacote de combate deve incluir ao menos um ataque leve, um ataque pesado, bloqueio alto e baixo e uma reação visual ao bloqueio. Manter as animações separadas dos dados de startup, frames ativos, recovery e dano.
 - Criar arte original. A referência a Street Fighter é de gênero e leitura de luta; não reproduzir sprites, personagens ou elementos protegidos dos jogos comerciais.
 
 ## O que falta para fechar o pacote jogável
@@ -69,7 +70,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
 2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
 3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Produzir guarda alta, reação de bloqueio, jab, golpe forte, chute, reação ao dano, queda/K.O. e levantar.
+4. Produzir ao menos um ataque leve (rápido) e um pesado (com mais preparação/impacto), guarda/bloqueio alto e baixo, reação ao bloqueio, chute, reação ao dano, queda/K.O. e levantar.
 5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
