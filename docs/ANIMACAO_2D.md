@@ -42,7 +42,7 @@ Uma ficha por golpe deve guardar pelo menos: nome, comando, cels, duração por 
 
 ## Estado atual do pacote do Jão — 03/10/2026
 
-As seis folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
+As sete folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
 
 | Estado | Folha criada | Situação |
 |---|---|---|
@@ -52,6 +52,7 @@ As seis folhas abaixo são conceitos visuais gerados para revisão. Ainda não f
 | Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
 | Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 | Ataque pesado / cruzado reto | 8 poses | Guarda, carga, transferência de peso, extensão/impacto, recuo e retorno; conceito gerado, ainda aguardando revisão e integração. |
+| Chute leve / frontal | 6 poses | Transferência de peso, elevação do joelho, extensão, recolhimento e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 
 As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
 
@@ -72,7 +73,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
 2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
 3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Produzir guarda/bloqueio alto e baixo, reação ao bloqueio, chute, reação ao dano, queda/K.O. e levantar.
+4. Produzir guarda/bloqueio alto e baixo, reação ao bloqueio, variantes adicionais de chute, reação ao dano, queda/K.O. e levantar.
 5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
