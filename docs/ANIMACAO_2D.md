@@ -57,6 +57,7 @@ As oito folhas abaixo são conceitos visuais gerados para revisão. Ainda não f
 | Soco abaixado / direto | 6 poses | Conceito v01: sai e retorna à guarda agachada; mantém os pés plantados e acompanha o mesmo braço durante preparação, extensão e recuo; aguardando revisão e integração. |
 | Chute abaixado / chute frontal baixo | 6 poses | Conceito v01: usa a perna atacante aprovada do chute lateral da frente, com trajetória baixa; mesma perna acompanha preparação, extensão, recuo e guarda, apoio permanece plantado; aguardando revisão e integração. |
 | Soco no ar / jump punch | 6 poses | Conceito v01: todos os quadros permanecem no ar; o mesmo braço prepara, estende e retorna à guarda; aguardando revisão e integração. |
+| Chute no ar / jump kick | 6 poses | Conceito v01: todos os quadros permanecem no ar; a perna da frente aprovada prepara, estende e retorna enquanto a outra fica recolhida; aguardando revisão e integração. |
 | Nocaute / reação, queda e pose final | 6 poses | Conceito v01: reação ao impacto, desequilíbrio, queda e posição final no chão; levantar permanece como animação separada. Aguardando revisão. |
 | Chute lateral leve / perna da frente | 6 poses | Conceito v03: tronco gira para mostrar mais as costas; perna atacante permanece a mesma no ciclo; joelho e pé de apoio flexionam/pivotam para o golpe. Aguardando revisão. |
 | Chute lateral leve / perna de trás | 6 poses | Conceito v06 reprovado pelo usuário por inconsistência na perna atacante nos quadros 2 e 4. Não integrar; revisar posteriormente. |
@@ -83,7 +84,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
 2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
 3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Revisar os conceitos de combate; produzir chute no ar; tratar o levantar como animação separada.
+4. Revisar os conceitos de combate; produzir a animação de levantar e variantes adicionais conforme necessário.
 5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
