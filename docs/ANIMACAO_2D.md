@@ -42,7 +42,7 @@ Uma ficha por golpe deve guardar pelo menos: nome, comando, cels, duração por 
 
 ## Estado atual do pacote do Jão — 03/10/2026
 
-As quatro folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
+As cinco folhas abaixo são conceitos visuais gerados para revisão. Ainda não foram aprovadas como arte final, fatiadas com metadados definitivos ou integradas e testadas na Godot.
 
 | Estado | Folha criada | Situação |
 |---|---|---|
@@ -50,6 +50,7 @@ As quatro folhas abaixo são conceitos visuais gerados para revisão. Ainda não
 | Caminhada lateral | 6 poses | Criada de perfil, voltada à direita; usar a versão lateral corrigida. O rascunho de caminhada de frente foi rejeitado. |
 | Down / agachar | 6 poses | 3 poses descendo e 3 mantendo a guarda baixa. A transição de volta para a posição em pé ainda não tem folha própria. |
 | Jump | 6 poses | Preparação, impulso, subida, ápice, descida e aterrissagem. |
+| Ataque leve / jab | 6 poses | Guarda, preparação, extensão, contato, recuo e retorno à guarda; conceito gerado, ainda aguardando revisão e integração. |
 
 As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×512 nominais por cel). A separação exata dos cels, o pivô, a escala e a linha-base precisam ser conferidos antes da importação. Os conceitos derivados de referência pessoal permanecem fora deste repositório público.
 
@@ -70,7 +71,7 @@ As folhas-conceito atuais usam canvas de 1536×1024 em grade visual 3×2 (512×5
 1. Revisar e aprovar os quatro conceitos; corrigir diferenças de rosto, roupa, volume, escala, baseline e leitura do ciclo.
 2. Fatiar as folhas com retângulos, nomes e durações por cel; testar os loops Idle e caminhada, a descida/hold do agachamento e o ciclo completo de salto.
 3. Definir e testar a saída do agachamento. No primeiro protótipo, avaliar reproduzir ao contrário as poses de descida antes de produzir uma folha própria de levantar.
-4. Produzir ao menos um ataque leve (rápido) e um pesado (com mais preparação/impacto), guarda/bloqueio alto e baixo, reação ao bloqueio, chute, reação ao dano, queda/K.O. e levantar.
+4. Produzir ao menos um ataque pesado (com mais preparação/impacto), guarda/bloqueio alto e baixo, reação ao bloqueio, chute, reação ao dano, queda/K.O. e levantar.
 5. Importar as versões de jogo na Godot 4.7.2; validar controles, alinhamento do chão, espelhamento esquerda/direita, colisões/hitboxes e leitura a 60 atualizações por segundo no Acer Nitro V15.
 
 ## Cenário por planos
