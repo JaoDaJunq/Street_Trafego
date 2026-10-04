@@ -76,9 +76,9 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026, da impulsão à aterrissagem; revisão visual pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Socos leve e pesado | — | Pendente. |
-| Chute leve com a perna da frente | v01, 6 poses | Criado; revisão visual pendente. Conferir continuidade da perna e pivô do apoio. |\n| Chute pesado com a perna de trás | v01, 6 poses | Criado; revisão visual pendente. Conferir perna atacante, rotação do tronco e pivô do apoio. |
+| Soco leve (jab) | v01, 6 poses | Criado sem aura ou efeito de energia; revisão visual pendente. Efeito mágico será outro sprite. |\n| Chute leve com a perna da frente | v01, 6 poses | **Aprovado visualmente pelo usuário**; fatiamento e integração pendentes. |\n| Chute pesado com a perna de trás | v01, 6 poses | **Aprovado visualmente pelo usuário**; fatiamento e integração pendentes. |
 | Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
-| Combo mágico de três socos | — | Pendente; sequência e efeito rosa ainda precisam ser desenhados. |
+| Combo mágico de três socos | — | Pendente; sequência de golpes ainda precisa ser desenhada. O efeito rosa será um sprite separado do corpo. |\n| Efeito mágico do soco | — | Sprite separado pendente; não incluir na folha corporal do jab. |
 | Reação a golpe, nocaute e recuperação | — | Pendentes. |
 
 O idle v04 está aprovado visualmente. Caminhada v01 e agachar v01 estão aceitos provisoriamente para seguir, com revisão posterior prevista. Salto v01 aguarda revisão visual. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
