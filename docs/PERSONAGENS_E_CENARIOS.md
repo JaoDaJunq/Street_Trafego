@@ -73,9 +73,17 @@ Aprovado pelo usuário em 04/10/2026. Seis poses; o sprite mostra somente o movi
 
 Aprovado pelo usuário em 04/10/2026. Seis poses; segundo golpe da sequência, usando o braço que ficava junto ao rosto na guarda, oposto ao jab do primeiro golpe. Sem VFX. Fatiamento e integração pendentes.
 
-### Combo 3 — movimento e VFX v01 — aguardando revisão
+### Combo 3 — movimento corporal v01 — reprovado
 
-Criados em 04/10/2026 como folhas separadas de seis poses. O movimento corporal é um empurrão curto seguido de um gesto para cima com a mesma mão, sem energia desenhada sobre a personagem. O sprite de efeito mostra espinhos de aura rosa surgindo do chão e desaparecendo. Ambos são conceitos privados e aguardam revisão visual, recorte e integração.
+Reprovado pelo usuário em 04/10/2026 porque o braço de guarda não aparece no quadro 3. Não usar esta versão no jogo.
+
+### Combo 3 — movimento corporal v02 — aguardando revisão
+
+Refeito em 04/10/2026 para manter os dois braços separados e visíveis em todos os quadros, especialmente o braço de guarda junto ao rosto no quadro 3. Empurrão curto e gesto para cima com a mesma mão, sem efeitos desenhados sobre a personagem. Conceito privado, aguardando revisão visual.
+
+### Combo 3 — espinhos de aura rosa VFX v01 — aprovado visualmente
+
+Aprovado pelo usuário em 04/10/2026. Sprite de efeito separado, com espinhos rosa surgindo do chão e desaparecendo. Fatiamento e integração pendentes.
 
 ### Brief ainda a fechar
 
