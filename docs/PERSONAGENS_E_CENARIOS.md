@@ -65,6 +65,10 @@ Criado em 03/10/2026 em seis poses, com chute frontal da perna da frente, guarda
 
 Criado em 03/10/2026 em seis poses, com chute lateral da perna de trás. Revisar quadro a quadro se a perna atacante permanece a mesma, se o tronco gira junto e se o pé de apoio pivota e retorna sem deslizar. Folha privada, ainda sem fatiamento ou integração.
 
+### Soco leve (jab) v01 — aguardando revisão
+
+Criado em 03/10/2026 em seis poses. A folha mostra somente o movimento corporal, sem aura, rastro ou efeito de energia. O efeito mágico do golpe será produzido como sprite separado, conforme decisão do usuário. Arte privada; aprovação visual, fatiamento e integração pendentes.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
