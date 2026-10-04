@@ -76,7 +76,7 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026, da impulsão à aterrissagem; revisão visual pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Socos leve e pesado | — | Pendente. |
-| Chutes básicos | — | Pendente de confirmação no moveset da Alice. |
+| Chute leve com a perna da frente | v01, 6 poses | Criado; revisão visual pendente. Conferir continuidade da perna e pivô do apoio. |\n| Chute pesado com a perna de trás | v01, 6 poses | Criado; revisão visual pendente. Conferir perna atacante, rotação do tronco e pivô do apoio. |
 | Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
 | Combo mágico de três socos | — | Pendente; sequência e efeito rosa ainda precisam ser desenhados. |
 | Reação a golpe, nocaute e recuperação | — | Pendentes. |
