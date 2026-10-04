@@ -45,13 +45,17 @@ A troca de peso entre as pernas ficou quase imperceptível. Não usar esta vers�
 
 Aprovada pelo usuário em 03/10/2026. A folha mostra a transferência sutil de peso do apoio traseiro para o dianteiro, mantendo a guarda dos braços fixa, os pés apoiados e movimento leve no cabelo e nas pontas da faixa. Perfil para a direita, aura rosa e folha visual 3×2. Ainda precisa ser fatiada, ter transparência e pivôs preparados e ser integrada ao jogo; a arte permanece privada.
 
-### Caminhada lateral v01 — aguardando revisão
+### Caminhada lateral v01 — aceita provisoriamente
 
-Criada em 03/10/2026: ciclo de seis poses de caminhada em perfil para a direita, guarda de combate, aura rosa e fundo chroma verde. A folha permanece no espaço de trabalho privado e ainda precisa de aprovação, recorte e integração.
+O usuário considerou a caminhada adequada para seguir em 03/10/2026, com revisão mais detalhada prevista para depois. Ciclo de seis poses em perfil para a direita, guarda de combate, aura rosa e fundo chroma verde. A folha permanece privada; fatiamento e integração continuam pendentes.
 
-### Agachar / Down v01 — aguardando revisão
+### Agachar / Down v01 — aceito provisoriamente
 
-Criado em 03/10/2026 em seis poses, da guarda em pé até a posição baixa. Os pés permanecem apoiados; a animação de voltar a ficar em pé será produzida separadamente. A folha é conceito privado, ainda sem aprovação, recorte ou integração.
+O usuário considerou o agachamento adequado para seguir em 03/10/2026, com revisão mais detalhada prevista para depois. Criado em seis poses, da guarda em pé até a posição baixa, com os pés apoiados. A animação de voltar a ficar em pé será produzida separadamente. Fatiamento e integração continuam pendentes.
+
+### Salto v01 — aguardando revisão
+
+Criado em 03/10/2026 em seis poses, da preparação e impulsão até o ápice, descida e aterrissagem. Perfil para a direita, aura rosa e fundo chroma verde. A folha permanece privada, sem aprovação visual, recorte ou integração.
 
 ### Brief ainda a fechar
 
