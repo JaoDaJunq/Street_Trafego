@@ -71,9 +71,9 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 |---|---|---|
 | Conceito visual | v02 | Aprovado; aura rosa. |
 | Idle | v04, 6 poses | Aprovado visualmente; fatiamento, transparência, pivôs e integração pendentes. |
-| Caminhada lateral | v01, 6 poses | Criada de perfil para a direita, ciclo em grade visual 3×2 e fundo chroma verde; revisão visual pendente. Ainda não está fatiada ou integrada. |
-| Agachar / Down | v01, 6 poses | Criado para revisão: descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Ainda não aprovado nem integrado. |
-| Salto e aterrissagem | — | Pendente. |
+| Caminhada lateral | v01, 6 poses | Usuário considera adequada para seguir; revisão futura prevista. Conceito ainda sem fatiamento ou integração. |
+| Agachar / Down | v01, 6 poses | Usuário considera adequado para seguir; revisão futura prevista. Descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Conceito ainda sem integração. |
+| Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026, da impulsão à aterrissagem; revisão visual pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Socos leve e pesado | — | Pendente. |
 | Chutes básicos | — | Pendente de confirmação no moveset da Alice. |
@@ -81,7 +81,7 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Combo mágico de três socos | — | Pendente; sequência e efeito rosa ainda precisam ser desenhados. |
 | Reação a golpe, nocaute e recuperação | — | Pendentes. |
 
-A caminhada e o idle estão em revisão visual como conceitos. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
+O idle v04 está aprovado visualmente. Caminhada v01 e agachar v01 estão aceitos provisoriamente para seguir, com revisão posterior prevista. Salto v01 aguarda revisão visual. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
 
 ## Decisões visuais que não podem se perder
 
