@@ -65,9 +65,17 @@ Criado em 03/10/2026 em seis poses, com chute frontal da perna da frente, guarda
 
 Criado em 03/10/2026 em seis poses, com chute lateral da perna de trás. Revisar quadro a quadro se a perna atacante permanece a mesma, se o tronco gira junto e se o pé de apoio pivota e retorna sem deslizar. Folha privada, ainda sem fatiamento ou integração.
 
-### Soco leve (jab) v01 — aguardando revisão
+### Soco leve / combo 1 (jab) v01 — aprovado visualmente
 
-Criado em 03/10/2026 em seis poses. A folha mostra somente o movimento corporal, sem aura, rastro ou efeito de energia. O efeito mágico do golpe será produzido como sprite separado, conforme decisão do usuário. Arte privada; aprovação visual, fatiamento e integração pendentes.
+Aprovado pelo usuário em 04/10/2026. Seis poses; o sprite mostra somente o movimento corporal, sem aura ou efeito. Fatiamento e integração pendentes.
+
+### Soco combo 2 — braço oposto v01 — aguardando revisão
+
+Criado em 04/10/2026 em seis poses: segundo golpe da sequência, usando o braço que ficava junto ao rosto na guarda, oposto ao jab do primeiro golpe. Sem VFX; efeito separado. Arte privada e revisão visual pendente.
+
+### Combo 3 — direção definida, animação pendente
+
+O terceiro golpe será um empurrão curto seguido de um gesto para cima com a mão. Depois do gesto, espinhos de aura rosa surgirão do chão. O movimento corporal e o sprite dos espinhos serão produzidos separadamente; nenhum dos dois foi criado ainda.
 
 ### Brief ainda a fechar
 
