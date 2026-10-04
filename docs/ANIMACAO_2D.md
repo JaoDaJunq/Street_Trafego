@@ -77,8 +77,8 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
 | Soco combo 2 (braço oposto) | v01, 6 poses | Aprovado visualmente em 04/10; sem VFX. Fatiamento e integração pendentes. |
-| Combo 3, movimento corporal | v01, 6 poses | Criado: empurrão curto seguido de gesto para cima com a mesma mão; revisão visual pendente. |
-| Combo 3, espinhos de aura rosa | VFX v01, 6 poses | Criado como sprite separado, crescendo do chão e desaparecendo; revisão visual pendente. |
+| Combo 3, movimento corporal | v01 / v02, 6 poses | v01 reprovado porque o braço de guarda desaparece no quadro 3; v02 criado e aguardando revisão. |
+| Combo 3, espinhos de aura rosa | VFX v01, 6 poses | **Aprovado visualmente** em 04/10; sprite separado. Fatiamento e integração pendentes. |
 | Chute leve com a perna da frente | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
 | Chute pesado com a perna de trás | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
 | Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
