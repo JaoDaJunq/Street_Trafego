@@ -75,10 +75,13 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Agachar / Down | v01, 6 poses | Usuário considera adequado para seguir; revisão futura prevista. Descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Conceito ainda sem integração. |
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026, da impulsão à aterrissagem; revisão visual pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
-| Socos leve e pesado | — | Pendente. |
-| Soco leve (jab) | v01, 6 poses | Criado sem aura ou efeito de energia; revisão visual pendente. Efeito mágico será outro sprite. |\n| Chute leve com a perna da frente | v01, 6 poses | **Aprovado visualmente pelo usuário**; fatiamento e integração pendentes. |\n| Chute pesado com a perna de trás | v01, 6 poses | **Aprovado visualmente pelo usuário**; fatiamento e integração pendentes. |
+| Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
+| Soco combo 2 (braço oposto) | v01, 6 poses | Criado sem VFX; revisão visual pendente. Usa o braço que ficava junto ao rosto no jab. |
+| Chute leve com a perna da frente | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
+| Chute pesado com a perna de trás | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
 | Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
-| Combo mágico de três socos | — | Pendente; sequência de golpes ainda precisa ser desenhada. O efeito rosa será um sprite separado do corpo. |\n| Efeito mágico do soco | — | Sprite separado pendente; não incluir na folha corporal do jab. |
+| Combo de três socos | — | Estrutura definida: jab aprovado, segundo soco com braço oposto, terceiro golpe será empurrão curto seguido de gesto para cima. A terceira animação corporal está pendente. |
+| Efeito do combo 3 | — | Espinhos de aura rosa surgem do chão após o gesto para cima; VFX em sprite separado, pendente. |
 | Reação a golpe, nocaute e recuperação | — | Pendentes. |
 
 O idle v04 está aprovado visualmente. Caminhada v01 e agachar v01 estão aceitos provisoriamente para seguir, com revisão posterior prevista. Salto v01 aguarda revisão visual. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
