@@ -57,6 +57,14 @@ O usuário considerou o agachamento adequado para seguir em 03/10/2026, com revi
 
 Criado em 03/10/2026 em seis poses, da preparação e impulsão até o ápice, descida e aterrissagem. Perfil para a direita, aura rosa e fundo chroma verde. A folha permanece privada, sem aprovação visual, recorte ou integração.
 
+### Chute leve com a perna da frente v01 — aguardando revisão
+
+Criado em 03/10/2026 em seis poses, com chute frontal da perna da frente, guarda de combate e pé de apoio no chão. Conferir continuidade da perna atacante e pivô do apoio antes de aprovar. Folha privada, ainda sem fatiamento ou integração.
+
+### Chute pesado com a perna de trás v01 — aguardando revisão
+
+Criado em 03/10/2026 em seis poses, com chute lateral da perna de trás. Revisar quadro a quadro se a perna atacante permanece a mesma, se o tronco gira junto e se o pé de apoio pivota e retorna sem deslizar. Folha privada, ainda sem fatiamento ou integração.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
