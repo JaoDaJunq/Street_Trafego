@@ -65,7 +65,7 @@ Os conceitos foram criados para análise visual. **Aprovação visual não signi
 
 As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2 e células nominais de 512×512. Essa medida é de conceito: cada cel precisa ser conferida e recortada antes de virar asset. A folha de oito poses deve ser tratada conforme seu leiaute real, sem presumir o mesmo grid.
 
-## Estado das animações da Alice — 03/10/2026
+## Estado das animações da Alice — 04/10/2026
 
 | Ação | Versão / poses | Estado |
 |---|---|---|
@@ -73,15 +73,15 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Idle | v04, 6 poses | Aprovado visualmente; fatiamento, transparência, pivôs e integração pendentes. |
 | Caminhada lateral | v01, 6 poses | Usuário considera adequada para seguir; revisão futura prevista. Conceito ainda sem fatiamento ou integração. |
 | Agachar / Down | v01, 6 poses | Usuário considera adequado para seguir; revisão futura prevista. Descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Conceito ainda sem integração. |
-| Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026, da impulsão à aterrissagem; revisão visual pendente. |
+| Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026; revisão visual pendente. |
 | Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
 | Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
-| Soco combo 2 (braço oposto) | v01, 6 poses | Criado sem VFX; revisão visual pendente. Usa o braço que ficava junto ao rosto no jab. |
+| Soco combo 2 (braço oposto) | v01, 6 poses | Aprovado visualmente em 04/10; sem VFX. Fatiamento e integração pendentes. |
+| Combo 3, movimento corporal | v01, 6 poses | Criado: empurrão curto seguido de gesto para cima com a mesma mão; revisão visual pendente. |
+| Combo 3, espinhos de aura rosa | VFX v01, 6 poses | Criado como sprite separado, crescendo do chão e desaparecendo; revisão visual pendente. |
 | Chute leve com a perna da frente | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
 | Chute pesado com a perna de trás | v01, 6 poses | Aprovado visualmente pelo usuário; fatiamento e integração pendentes. |
 | Ataques baixos e no ar | — | Pendente para paridade do pacote de combate. |
-| Combo de três socos | — | Estrutura definida: jab aprovado, segundo soco com braço oposto, terceiro golpe será empurrão curto seguido de gesto para cima. A terceira animação corporal está pendente. |
-| Efeito do combo 3 | — | Espinhos de aura rosa surgem do chão após o gesto para cima; VFX em sprite separado, pendente. |
 | Reação a golpe, nocaute e recuperação | — | Pendentes. |
 
 O idle v04 está aprovado visualmente. Caminhada v01 e agachar v01 estão aceitos provisoriamente para seguir, com revisão posterior prevista. Salto v01 aguarda revisão visual. As artes derivadas da referência pessoal da Alice permanecem privadas e não são publicadas neste repositório.
