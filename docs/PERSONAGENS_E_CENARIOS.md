@@ -69,13 +69,13 @@ Criado em 03/10/2026 em seis poses, com chute lateral da perna de trás. Revisar
 
 Aprovado pelo usuário em 04/10/2026. Seis poses; o sprite mostra somente o movimento corporal, sem aura ou efeito. Fatiamento e integração pendentes.
 
-### Soco combo 2 — braço oposto v01 — aguardando revisão
+### Soco combo 2 — braço oposto v01 — aprovado visualmente
 
-Criado em 04/10/2026 em seis poses: segundo golpe da sequência, usando o braço que ficava junto ao rosto na guarda, oposto ao jab do primeiro golpe. Sem VFX; efeito separado. Arte privada e revisão visual pendente.
+Aprovado pelo usuário em 04/10/2026. Seis poses; segundo golpe da sequência, usando o braço que ficava junto ao rosto na guarda, oposto ao jab do primeiro golpe. Sem VFX. Fatiamento e integração pendentes.
 
-### Combo 3 — direção definida, animação pendente
+### Combo 3 — movimento e VFX v01 — aguardando revisão
 
-O terceiro golpe será um empurrão curto seguido de um gesto para cima com a mão. Depois do gesto, espinhos de aura rosa surgirão do chão. O movimento corporal e o sprite dos espinhos serão produzidos separadamente; nenhum dos dois foi criado ainda.
+Criados em 04/10/2026 como folhas separadas de seis poses. O movimento corporal é um empurrão curto seguido de um gesto para cima com a mesma mão, sem energia desenhada sobre a personagem. O sprite de efeito mostra espinhos de aura rosa surgindo do chão e desaparecendo. Ambos são conceitos privados e aguardam revisão visual, recorte e integração.
 
 ### Brief ainda a fechar
 
