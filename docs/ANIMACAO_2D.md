@@ -78,6 +78,9 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026; revisão visual pendente. |
 | Soco no ar | v01, 6 poses | Criado como movimento corporal sem VFX; revisão visual pendente. |
 | Chute no ar | v01, 6 poses | Criado como movimento corporal sem VFX; revisão visual pendente, conferir continuidade da perna atacante e guarda. |
+| Reação ao levar golpe | v01, 6 poses | Criada como reação corporal sem nocaute e sem VFX; revisão visual pendente. |
+| Nocaute | v01, 6 poses | Criado em seis poses, terminando com Alice caída de costas; revisão visual pendente. |
+| Recuperação do nocaute | v01, 6 poses | Criada da posição caída até a guarda em pé; revisão visual pendente, conferir continuidade com o nocaute e o idle. |
 | Defesa em pé, animação corporal | v01, 6 poses | Criada sem VFX; revisão visual pendente. |
 | Barreira rosa, VFX | v01, 6 poses | Criada em sprite separado; revisão visual pendente. |
 | Defesa baixa, corpo | v02, 6 poses | Quadro 3 corrigido para dois braços, seguindo a preferência de pose da v01; aguarda revisão visual. Sobreposição de tênis ainda precisa ser conferida. Barreira rosa permanece como VFX separado. |
