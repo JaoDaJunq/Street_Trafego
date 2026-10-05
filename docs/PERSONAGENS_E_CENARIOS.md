@@ -93,6 +93,12 @@ Criada em 04/10/2026 em seis poses, sem desenhar a barreira junto da personagem.
 
 Criada em 04/10/2026 como sprite separado, em seis poses de formação, sustentação, pulso e dissipação. Conceito privado, pendente de aprovação visual, recorte e integração.
 
+### Defesa baixa v01 — aguardando revisão
+Criada em 05/10/2026 em seis poses, como animação corporal sem a barreira rosa, que permanece como VFX separado. A revisão deve conferir a leitura da guarda baixa e a sobreposição de tênis percebida em alguns quadros. Não aprovada nem integrada.
+
+### Retorno do agachamento v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, da guarda baixa até a guarda em pé. Conferir a progressão dos joelhos/quadril, os pés apoiados e a correspondência do último quadro com o idle v04. Não aprovado nem integrado.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
