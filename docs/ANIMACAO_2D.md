@@ -86,7 +86,7 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Defesa baixa, corpo | v02, 6 poses | Quadro 3 corrigido para dois braços, seguindo a preferência de pose da v01; aguarda revisão visual. Sobreposição de tênis ainda precisa ser conferida. Barreira rosa permanece como VFX separado. |
 | Retorno do agachamento | v01, 6 poses | Criado; aguarda revisão visual de continuidade e retorno à guarda em pé. Foi observada sobreposição de tênis em alguns quadros, corrigir antes da aprovação. |
 | Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
-| Soco pesado / cruzado | v01, 6 poses | Criado como cruzado com o braço de trás, preparação e rotação do tronco; animação corporal sem VFX, revisão visual pendente. |
+| Soco pesado / cruzado | v02, 6 poses | Quadro 4 corrigido para o braço da frente; giro de tronco mostra mais as costas. Sem VFX; revisão visual pendente. |
 | Soco combo 2 (braço oposto) | v01, 6 poses | Aprovado visualmente em 04/10; sem VFX. Fatiamento e integração pendentes. |
 | Combo 3, movimento corporal | v01 / v02, 6 poses | v01 reprovado porque o braço de guarda desaparece no quadro 3; v02 criado e aguardando revisão. |
 | Combo 3, espinhos de aura rosa | VFX v01, 6 poses | **Aprovado visualmente** em 04/10; sprite separado. Fatiamento e integração pendentes. |
