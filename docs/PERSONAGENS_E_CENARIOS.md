@@ -54,6 +54,13 @@ O usuário considerou a caminhada adequada para seguir em 03/10/2026, com revis�
 O usuário considerou o agachamento adequado para seguir em 03/10/2026, com revisão mais detalhada prevista para depois. Criado em seis poses, da guarda em pé até a posição baixa, com os pés apoiados. A animação de voltar a ficar em pé será produzida separadamente. Fatiamento e integração continuam pendentes.
 
 ### Salto v01 — aguardando revisão
+Criado em 03/10/2026 em seis poses, da preparação até a aterrissagem. Perfil para a direita, folha chroma verde. Aguarda revisão visual.
+
+### Soco no ar v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, com Alice suspensa durante toda a sequência, estendendo um braço enquanto o outro protege o rosto. Sprite corporal sem aura ou VFX; conferir continuidade e anatomia antes de aprovar.
+
+### Chute no ar v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, com a perna dianteira estendida horizontalmente e a outra recolhida, permanecendo no ar ao longo da sequência. Sprite corporal sem VFX; conferir continuidade da perna atacante e da guarda antes de aprovar.
 
 Criado em 03/10/2026 em seis poses, da preparação e impulsão até o ápice, descida e aterrissagem. Perfil para a direita, aura rosa e fundo chroma verde. A folha permanece privada, sem aprovação visual, recorte ou integração.
 
