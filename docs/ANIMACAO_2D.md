@@ -65,7 +65,7 @@ Os conceitos foram criados para análise visual. **Aprovação visual não signi
 
 As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2 e células nominais de 512×512. Essa medida é de conceito: cada cel precisa ser conferida e recortada antes de virar asset. A folha de oito poses deve ser tratada conforme seu leiaute real, sem presumir o mesmo grid.
 
-## Estado das animações da Alice — 04/10/2026
+## Estado das animações da Alice — 05/10/2026
 
 | Ação | Versão / poses | Estado |
 |---|---|---|
@@ -73,6 +73,8 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Idle | v04, 6 poses | Aprovado visualmente; fatiamento, transparência, pivôs e integração pendentes. |
 | Caminhada lateral | v01, 6 poses | Usuário considera adequada para seguir; revisão futura prevista. Conceito ainda sem fatiamento ou integração. |
 | Agachar / Down | v01, 6 poses | Usuário considera adequado para seguir; revisão futura prevista. Descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Conceito ainda sem integração. |
+| Soco abaixado | v01, 6 poses | Criado como animação corporal sem VFX; revisão visual pendente, conferir braços, apoio e continuidade dos pés. |
+| Chute abaixado | v01, 6 poses | Criado como animação corporal com chute baixo da perna dianteira; revisão visual pendente, conferir perna de apoio e retorno à guarda. |
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026; revisão visual pendente. |
 | Defesa em pé, animação corporal | v01, 6 poses | Criada sem VFX; revisão visual pendente. |
 | Barreira rosa, VFX | v01, 6 poses | Criada em sprite separado; revisão visual pendente. |
