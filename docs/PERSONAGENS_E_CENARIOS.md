@@ -22,6 +22,7 @@ Alice está confirmada como o segundo personagem para o teste local. A foto de r
 - Explorar poderes ligados aos golpes, incluindo a ideia de um combo de três socos que libera energia.
 - A defesa poderá usar uma barreira.
 - Cores/detalhes específicos e golpe assinatura ainda não foram definidos.
+- Em socos frontais da Alice, girar ombros e quadril para acompanhar o braço da frente, expondo mais as costas e a parte traseira do corpo; manter o braço oposto claramente na guarda.
 
 ### Conceito visual v02
 
