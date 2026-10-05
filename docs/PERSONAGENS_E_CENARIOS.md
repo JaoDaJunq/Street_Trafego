@@ -99,6 +99,12 @@ A v01 foi substituída após o usuário apontar três braços no quadro 3 e pref
 ### Retorno do agachamento v01 — aguardando revisão
 Criado em 05/10/2026 em seis poses, da guarda baixa até a guarda em pé. Conferir a progressão dos joelhos/quadril, os pés apoiados e a correspondência do último quadro com o idle v04. Não aprovado nem integrado.
 
+### Soco abaixado v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, mantendo Alice em guarda baixa durante a extensão e o retorno do soco. A folha é corporal, sem aura ou VFX. Conferir anatomia dos braços, apoio e continuidade dos pés antes de aprovar ou integrar.
+
+### Chute abaixado v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, com chute baixo da perna dianteira e retorno à guarda. O pé de apoio deve permanecer plantado; conferir continuidade da perna que chuta, baseline e silhueta antes de aprovar ou integrar.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
