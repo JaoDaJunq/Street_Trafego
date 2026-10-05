@@ -85,6 +85,14 @@ Refeito em 04/10/2026 para manter os dois braços separados e visíveis em todos
 
 Aprovado pelo usuário em 04/10/2026. Sprite de efeito separado, com espinhos rosa surgindo do chão e desaparecendo. Fatiamento e integração pendentes.
 
+### Defesa em pé v01 — animação corporal aguardando revisão
+
+Criada em 04/10/2026 em seis poses, sem desenhar a barreira junto da personagem. Mostra a entrada na defesa, a guarda com as mãos à frente e o retorno. Folha privada, pendente de aprovação visual, fatiamento e integração.
+
+### Barreira rosa v01 — VFX aguardando revisão
+
+Criada em 04/10/2026 como sprite separado, em seis poses de formação, sustentação, pulso e dissipação. Conceito privado, pendente de aprovação visual, recorte e integração.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
