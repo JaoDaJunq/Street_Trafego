@@ -77,7 +77,7 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Defesa em pé, animação corporal | v01, 6 poses | Criada sem VFX; revisão visual pendente. |
 | Barreira rosa, VFX | v01, 6 poses | Criada em sprite separado; revisão visual pendente. |
 | Defesa baixa, corpo | v01, 6 poses | Criada; aguarda revisão visual. Foi observada sobreposição de tênis em alguns quadros, corrigir antes da aprovação. Barreira rosa permanece como VFX separado. |
-| Retorno do agachamento | v01, 6 poses | Criado; aguarda revisão visual de continuidade, apoio dos pés e retorno à guarda em pé. |
+| Retorno do agachamento | v01, 6 poses | Criado; aguarda revisão visual de continuidade e retorno à guarda em pé. Foi observada sobreposição de tênis em alguns quadros, corrigir antes da aprovação. |
 | Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
 | Soco combo 2 (braço oposto) | v01, 6 poses | Aprovado visualmente em 04/10; sem VFX. Fatiamento e integração pendentes. |
 | Combo 3, movimento corporal | v01 / v02, 6 poses | v01 reprovado porque o braço de guarda desaparece no quadro 3; v02 criado e aguardando revisão. |
