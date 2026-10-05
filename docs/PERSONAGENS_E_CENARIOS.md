@@ -76,8 +76,8 @@ Aprovado pelo usuário em 04/10/2026. Seis poses de chute lateral com a perna de
 
 Aprovado pelo usuário em 04/10/2026. Seis poses; o sprite mostra somente o movimento corporal, sem aura ou efeito. Fatiamento e integração pendentes.
 
-### Soco pesado / cruzado v01 — aguardando revisão
-Criado em 05/10/2026 em seis poses, usando o braço de trás com preparação maior, rotação de ombros/quadril e transferência de peso. Movimento corporal sem aura ou VFX; conferir braço atacante, pivô do pé traseiro e retorno à guarda antes de aprovar.
+### Soco pesado / cruzado v02 — aguardando revisão
+A v01 foi revisada após o usuário apontar que o quadro 4 usava o braço de trás. Na v02, o quadro 4 usa o braço da frente, com rotação do tronco que expõe mais as costas e a parte traseira do corpo. Seis poses, sem VFX; conferir a leitura do braço atacante, o giro corporal e a continuidade antes de aprovar.
 
 ### Soco combo 2 — braço oposto v01 — aprovado visualmente
 
