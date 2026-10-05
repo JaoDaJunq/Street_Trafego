@@ -76,6 +76,8 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Soco abaixado | v01, 6 poses | Criado como animação corporal sem VFX; revisão visual pendente, conferir braços, apoio e continuidade dos pés. |
 | Chute abaixado | v01, 6 poses | Criado como animação corporal com chute baixo da perna dianteira; revisão visual pendente, conferir perna de apoio e retorno à guarda. |
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026; revisão visual pendente. |
+| Soco no ar | v01, 6 poses | Criado como movimento corporal sem VFX; revisão visual pendente. |
+| Chute no ar | v01, 6 poses | Criado como movimento corporal sem VFX; revisão visual pendente, conferir continuidade da perna atacante e guarda. |
 | Defesa em pé, animação corporal | v01, 6 poses | Criada sem VFX; revisão visual pendente. |
 | Barreira rosa, VFX | v01, 6 poses | Criada em sprite separado; revisão visual pendente. |
 | Defesa baixa, corpo | v02, 6 poses | Quadro 3 corrigido para dois braços, seguindo a preferência de pose da v01; aguarda revisão visual. Sobreposição de tênis ainda precisa ser conferida. Barreira rosa permanece como VFX separado. |
