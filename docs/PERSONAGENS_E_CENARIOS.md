@@ -112,6 +112,15 @@ Criado em 05/10/2026 em seis poses, mantendo Alice em guarda baixa durante a ext
 ### Chute abaixado v01 — aguardando revisão
 Criado em 05/10/2026 em seis poses, com chute baixo da perna dianteira e retorno à guarda. O pé de apoio deve permanecer plantado; conferir continuidade da perna que chuta, baseline e silhueta antes de aprovar ou integrar.
 
+### Reação ao levar golpe v01 — aguardando revisão
+Criada em 05/10/2026 em seis poses, como reação corporal breve: recuo do impacto e retorno à guarda em pé, sem queda ou VFX. Ainda não aprovada nem integrada.
+
+### Nocaute v01 — aguardando revisão
+Criado em 05/10/2026 em seis poses, da perda de equilíbrio à queda e posição deitada. Sem VFX. Conferir anatomia dos membros e leitura da pose final antes de aprovar.
+
+### Recuperação do nocaute v01 — aguardando revisão
+Criada em 05/10/2026 em seis poses. Começa deitada, rola e se apoia para levantar, terminando na guarda em pé próxima ao idle v04. Conferir a continuidade com a pose final do nocaute antes de aprovar.
+
 ### Brief ainda a fechar
 
 - Definir postura/guarda, lado dominante, movimento e alcance preferido.
