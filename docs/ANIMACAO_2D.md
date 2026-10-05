@@ -74,7 +74,9 @@ As folhas de seis poses recentes usam canvas de 1536×1024 com grade visual 3×2
 | Caminhada lateral | v01, 6 poses | Usuário considera adequada para seguir; revisão futura prevista. Conceito ainda sem fatiamento ou integração. |
 | Agachar / Down | v01, 6 poses | Usuário considera adequado para seguir; revisão futura prevista. Descida até a guarda baixa, pés apoiados; retorno para ficar em pé será outra animação. Conceito ainda sem integração. |
 | Salto e aterrissagem | v01, 6 poses | Criado em 03/10/2026; revisão visual pendente. |
-| Defesa em pé/barreira e defesa baixa | — | Pendente; definir a leitura visual da barreira. |
+| Defesa em pé, animação corporal | v01, 6 poses | Criada sem VFX; revisão visual pendente. |
+| Barreira rosa, VFX | v01, 6 poses | Criada em sprite separado; revisão visual pendente. |
+| Defesa baixa | — | Pendente. |
 | Soco leve / combo 1 (jab) | v01, 6 poses | Aprovado visualmente; sprite corporal sem aura ou VFX. Fatiamento e integração pendentes. |
 | Soco combo 2 (braço oposto) | v01, 6 poses | Aprovado visualmente em 04/10; sem VFX. Fatiamento e integração pendentes. |
 | Combo 3, movimento corporal | v01 / v02, 6 poses | v01 reprovado porque o braço de guarda desaparece no quadro 3; v02 criado e aguardando revisão. |
